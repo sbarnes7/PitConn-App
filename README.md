@@ -1,7 +1,6 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Bugs
- - [ ] Finish updating all dhr accessory pages
  - [ ] Check to make sure original one note is in line with app
  - [ ] Need images for dhr accessories
  - [ ] Get square images for Ares accessories
@@ -9,6 +8,7 @@
  - [ ] Use new one note for applications
 
  ## Fixed Bugs (1/17/2020)
+  - [x] Finish updating all dhr accessory pages
  - [x] Only instrument videos in video library
  - [x] How to make full screen
  - [x] Style the scroll bar
