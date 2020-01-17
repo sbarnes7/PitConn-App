@@ -1,94 +1,20 @@
 <html>
     <head>
         <title>Tribo-Rheometry Accessory</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<link href="../../bootstrap-4.4.1-dist/css/bootstrap.min.css" media="all" type="text/css" rel="stylesheet">
+<link href="../../bootstrap-4.4.1-dist/js/bootstrap.min.js" media="all" type="text/css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="../../instruments.css">
     </head>
-    <style>
-    #html, body{
-        color: rgb(0, 32, 78);
-        font-family: 'Open Sans', sans-serif;
 
-    }
-    .container{
-        width: 100%;
-    }
-    .figure-caption{
-        color: rgb(0, 82, 155);
-        font-weight: bolder;
-    }
-        /* The side navigation menu */
-.sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  right: 0;
-  background-color: whitesmoke; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: bold;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.btn:hover{
-    background-color:rgb(0, 82, 155);
-}
-.btn:active{
-    background-color:rgb(0, 82, 155);
-}
-.btn{
-    color:rgb(0, 82, 155);
-    border-color:rgb(0, 82, 155);
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: rgb(0, 32, 78);
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left .5s;
-  padding: 20px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-
-    </style>
     <body>
-        <div class="mx-auto" style="width: 95%;">
+        <div class="mx-auto" style="width: 95%; padding-top: 15px;">
             <div class="row">
                 <div class="col-sm-11">
-                    <a href="../dhraccess.html" style="color: black;"><h1><</h1>
+                    <a href="../dhraccess.html" style="color: black;">
+                        <img src="../../img/Arrow.png" style="width: 45px;">
                      </a>
                 </div>
                 <div class = "col-sm-1">
@@ -108,30 +34,30 @@
                 </div>
             </div>
         <br><br>
-        <h1 style="font-size: 60px; font-weight: bold;">TRIBO-RHEOMETRY ACCESSORY</h1>
+        <h1 style="font-size: 60px; font-weight: bold; color: rgb(0, 82, 155);">TRIBO-RHEOMETRY ACCESSORY</h1>
         <br><br><br><br>
 
         <div class="row">
             <div class="col-sm-4">
-                <img src = "../img/evf.PNG" style="width: 100%;">
+                <img src = "../../img/PNG/3D CulturePro Bioreactors.png" style="width: 80%;">
             </div>
             <div class="col-sm-8">
                 <div class="row" id="my_styles">
                     <span>  
-                       <button type="button" id="tabs1" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Description</button>&emsp;
-                        <button type="button" id="tabs4" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
-                        <button type="button" id="tabs5" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Applications</button>&emsp;
+                       <button type="button" id="tabs1" onClick="showStuff(this)" class=" btn btn-outline-primary badge-pill">Description</button>&emsp;
+                        <button type="button" id="tabs2" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
+    
                     </span>
                 </div>
                 <br><br><br>
-                <div id="tabs-1" class="tabContent mx-auto">
-                    <p> 
-                        Tribology is defined as the study of interacting surfaces undergoing relative motion. The new Tribo-Rheometry Accessory, available for all DHR models, enables the capability to make coefficient of friction measurements between two solid surfaces under dry or lubricated conditions. The unique self-aligning design ensures uniform solid-solid contact and axial force distribution under all conditions. A modular set of standard and novel geometries offers a choice of different contact profiles and direct simulation of end-use conditions. Accurate and precise control of axial force, rotational speed, and temperature inherent to TA Instrument rheometers provides for the best and widest range of friction measurements. 
+                <div id="tabs-1" class="tabContent">
+                    <p> Tribology is defined as the study of interacting surfaces undergoing relative motion. The new Tribo-Rheometry Accessory, available for all DHR models, enables the capability to make coefficient of friction measurements between two solid surfaces under dry or lubricated conditions. The unique self-aligning design ensures uniform solid-solid contact and axial force distribution under all conditions. A modular set of standard and novel geometries offers a choice of different contact profiles and direct simulation of end-use conditions. Accurate and precise control of axial force, rotational speed, and temperature inherent to TA Instrument rheometers provides for the best and widest range of friction measurements. 
                         <br>
                         The advanced TRIOS software offers easy setup and control of tribo-rheometry tests and contains a complete set of variables required for data analysis including the coefficient of friction (μ), load force (FL ), friction force (FF ) and Gumbel number (Gu). These may be used to construct Stribeck curves, static friction measurements, or explore specific combinations of temperature, contact force, and motion. 
-                      </p>
+                     </p>
                 </div>
-                <div id="tabs-4" class="tabContent mx-auto" style="display: none;">
+                <div id="tabs-2" class="tabContent" style="display:none;">
+                    <P>
                     <ul>
                         <li>Compatible with Stepped Disposable Peltier Plate and Environmental Test Chamber </li>
                         <li>Characterize materials wear and coefficient of friction under dry or lubricated conditions </li>
@@ -141,25 +67,21 @@
                         <li>Automatic software calculation of relevant friction parameters </li>
                         <li>Easy installation and removal </li>
                     </ul>
+
+                    </p>
                 </div>
-                <div id="tabs-5" class="tabContent mx-auto" style="display: none;">
-                    <img src="../img/tra1.jpg">
-                    <br>
-                    <h3><b>Friction Measurment of Toothpaste</b></h3>
-                    The accompanying figure shows the coefficient of friction profiles of two commercially available toothpastes tested between textured PMMA plates (acting as tooth substitutes) using the ring on plate configuration. The whitening toothpaste, with abrasive particles, has higher friction at low speeds, but the gel toothpaste’s friction profile shows a rapid increase at higher speeds. This behavior can be explained by comparing the flow curves of the two toothpastes – although both materials are shear thinning, the viscosity of whitening toothpaste decreases more rapidly than the gel toothpaste. This results in increased hydrodynamic drag and greater friction at higher rotation speeds. 
-                    
-                </div>
- 
+
+            </div>
         </div>
-    </div>
     <div class="row">
         <div class="col-sm-10">
     
         </div>
         <div class="col-sm-1">
-            <br><br>
-            <img src="../../img/logo.PNG" style="width: 125px;">
-        </div>
+            
+            <a href="../../index.html">
+                <img src="../../img/logo.PNG" style="width: 125px; padding-bottom: 15px; padding-right: 15px;">
+                </a>        </div>
     </div></div>
     </body>
     <script>

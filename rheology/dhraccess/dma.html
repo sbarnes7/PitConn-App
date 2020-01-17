@@ -1,94 +1,20 @@
 <html>
     <head>
         <title>Dynamic Mechanical Analysis</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<link href="../../bootstrap-4.4.1-dist/css/bootstrap.min.css" media="all" type="text/css" rel="stylesheet">
+<link href="../../bootstrap-4.4.1-dist/js/bootstrap.min.js" media="all" type="text/css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="../../instruments.css">
     </head>
-    <style>
-    #html, body{
-        color: rgb(0, 32, 78);
-        font-family: 'Open Sans', sans-serif;
 
-    }
-    .container{
-        width: 100%;
-    }
-    .figure-caption{
-        color: rgb(0, 82, 155);
-        font-weight: bolder;
-    }
-        /* The side navigation menu */
-.sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  right: 0;
-  background-color: whitesmoke; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: bold;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.btn:hover{
-    background-color:rgb(0, 82, 155);
-}
-.btn:active{
-    background-color:rgb(0, 82, 155);
-}
-.btn{
-    color:rgb(0, 82, 155);
-    border-color:rgb(0, 82, 155);
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: rgb(0, 32, 78);
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left .5s;
-  padding: 20px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-
-    </style>
     <body>
-        <div class="mx-auto" style="width: 95%;">
+        <div class="mx-auto" style="width: 95%; padding-top: 15px;">
             <div class="row">
                 <div class="col-sm-11">
-                    <a href="../dhraccess.html" style="color: black;"><h1><</h1>
+                    <a href="../dhraccess.html" style="color: black;">
+                        <img src="../../img/Arrow.png" style="width: 45px;">
                      </a>
                 </div>
                 <div class = "col-sm-1">
@@ -108,69 +34,60 @@
                 </div>
             </div>
         <br><br>
-        <h1 style="font-size: 60px; font-weight: bold;">DYNAMIC MECHANICAL ANALYSIS</h1>
+        <h1 style="font-size: 60px; font-weight: bold; color: rgb(0, 82, 155);">DYNAMIC MECHANICAL ANALYSIS</h1>
         <br><br><br><br>
 
         <div class="row">
             <div class="col-sm-4">
-                <img src = "../img/evf.PNG" style="width: 100%;">
+                <img src = "../../img/PNG/3D CulturePro Bioreactors.png" style="width: 80%;">
             </div>
             <div class="col-sm-8">
                 <div class="row" id="my_styles">
                     <span>  
-                       <button type="button" id="tabs1" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Description</button>&emsp;
-                        <button type="button" id="tabs4" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
-                        <button type="button" id="tabs5" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Specifications</button>&emsp;
-                        <button type="button" id="tabs6" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Applications</button>&emsp;
+                       <button type="button" id="tabs1" onClick="showStuff(this)" class=" btn btn-outline-primary badge-pill">Description</button>&emsp;
+                        <button type="button" id="tabs2" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
+    
                     </span>
                 </div>
                 <br><br><br>
-                <div id="tabs-1" class="tabContent mx-auto">
-                    <p> 
-                        Backed by over four decades of TA Instruments’ expertise in rotational rheology and linear DMA measurements, the Discovery Hybrid Rheometer’s DMA Mode adds a new dimension for testing solid and soft-solid materials. Now in addition to the most sensitive and accurate rotational shear measurements, the DHR can deliver accurate <b>linear Dynamic Mechanical Analysis (DMA) data.</b> Axial DMA complements solid torsion testing by providing a direct measure of the modulus of elasticity, or Young’s Modulus (E). The new DMA mode is ideal for identifying a material’s transition temperatures and provides reliable measurements over the instrument’s full range of temperatures. 
-                     </p>
+                <div id="tabs-1" class="tabContent">
+                    <p> Backed by over four decades of TA Instruments’ expertise in rotational rheology and linear DMA measurements, the Discovery Hybrid Rheometer’s DMA Mode adds a new dimension for testing solid and soft-solid materials. Now in addition to the most sensitive and accurate rotational shear measurements, the DHR can deliver accurate <B>linear Dynamic Mechanical Analysis (DMA) data.</B> Axial DMA complements solid torsion testing by providing a direct measure of the modulus of elasticity, or Young’s Modulus (E). The new DMA mode is ideal for identifying a material’s transition temperatures and provides reliable measurements over the instrument’s full range of temperatures. 
+                         </p>
                 </div>
-                <div id="tabs-4" class="tabContent mx-auto" style="display: none;">
+                <div id="tabs-2" class="tabContent" style="display:none;">
+                    <P>
                     <ul>
-                       <li>Force Rebalance Transducer Motor Control </li> 
-                       <li>Smart SwapTM technology for quick installation </li>
-                       <li>Available on all DHR models </li>
-                       <li>Complete array of geometries for axial testing: </li>
-                       <li>3-Point Bending</li>
-                       <li>Film/Fiber Tension</li>
-                       <li>Single and Dual Cantilever (Clamped Bending)</li>
-                       <li> Parallel Plate Compression </li>
-                       <li>Axial Force Control tracks material stiffness and automatically adjusts static load </li>
-                       <li>Superior temperature control with the Environmental Test Chamber (ETC) up to 600 °C </li>
-                       <li>Liquid Nitrogen cooling to −160 °C </li>
-                       <li>Air Chiller Systems provide liquid nitrogen-free cooling to −85 °C </li>
-                       <li>Optional sample visualization with ETC camera </li>
+                        <li>Force Rebalance Transducer Motor Control </li>
+                        <LI>Smart Swap™ technology for quick installation</LI>
+                        <li>Available on all DHR models </li>
+                        <li>Complete array of geometries for axial testing: </li>
+                        <ul>
+                            <li> 3-Point Bending</li>
+                            <li> Film/Fiber Tension</li>
+                            <li>Single and Dual Cantilever (Clamped Bending)</li>
+                            <li>Parallel Plate Compression</li>
+                        </ul>
+                        <li>Axial Force Control tracks material stiffness and automatically adjusts static load </li>
+                        <li>Superior temperature control with the Environmental Test Chamber (ETC) up to 600 °C </li>
+                        <li>Liquid Nitrogen cooling to −160 °C </li>
+                        <li>Air Chiller Systems provide liquid nitrogen-free cooling to −85 °C </li>
+                        <li>Optional sample visualization with ETC camera </li>
                     </ul>
-                </div>
-                <div id="tabs-5" class="tabContent mx-auto" style="display: none;">
-                    <img src="../img/dma1.png" style="width: 100%;">
-                </div>
-                <div id="tabs-6" class="tabContent mx-auto" style="display: none;">
-                    <img src="../img/dma2.jpg">
-                    <br>
-                    Axial DMA tests on thin films requires maintaining the axial force above the oscillation force to hold the sample in tension throughout the test. This capability is highlighted in the plot showing a temperature ramp on 50μm thick PET film tested using tension geometry over a temperature range of -100 °C to 250 °C. Three major transitions are observed: a beta glass transition at -80°C, an alpha glass transition at about 111 °C, and melting at 236 °C. The data reveal a semi-crystalline structure with two amorphous relaxations and the DHR’s force-tracking capabilities in such tests 
-                    <br><br>
-                    <img src="../img/dma3.jpg">
-                    <br>
-                    The figure above demonstrates the performance on the DMA mode during a temperature ramp run on an acrylonitrile butadiene styrene (ABS) sample in single cantilever over a temperature range of -100 °C to 140 °C. Two major transitions corresponding to the individual glass transitions of the styrene (-82 °C) and butadiene (115 °C) components are evident, indicating the incompatibility of the two monomers. 
 
+                    </p>
                 </div>
- 
+
+            </div>
         </div>
-    </div>
     <div class="row">
         <div class="col-sm-10">
     
         </div>
         <div class="col-sm-1">
-            <br><br>
-            <img src="../../img/logo.PNG" style="width: 125px;">
-        </div>
+            
+            <a href="../../index.html">
+                <img src="../../img/logo.PNG" style="width: 125px; padding-bottom: 15px; padding-right: 15px;">
+                </a>        </div>
     </div></div>
     </body>
     <script>

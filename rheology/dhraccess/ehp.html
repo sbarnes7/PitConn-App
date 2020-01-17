@@ -1,94 +1,20 @@
 <html>
     <head>
         <title>Electrically Heated Plates</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<link href="../../bootstrap-4.4.1-dist/css/bootstrap.min.css" media="all" type="text/css" rel="stylesheet">
+<link href="../../bootstrap-4.4.1-dist/js/bootstrap.min.js" media="all" type="text/css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="../../instruments.css">
     </head>
-    <style>
-    #html, body{
-        color: rgb(0, 32, 78);
-        font-family: 'Open Sans', sans-serif;
 
-    }
-    .container{
-        width: 100%;
-    }
-    .figure-caption{
-        color: rgb(0, 82, 155);
-        font-weight: bolder;
-    }
-        /* The side navigation menu */
-.sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  right: 0;
-  background-color: whitesmoke; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: bold;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.btn:hover{
-    background-color:rgb(0, 82, 155);
-}
-.btn:active{
-    background-color:rgb(0, 82, 155);
-}
-.btn{
-    color:rgb(0, 82, 155);
-    border-color:rgb(0, 82, 155);
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: rgb(0, 32, 78);
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left .5s;
-  padding: 20px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-
-    </style>
     <body>
-        <div class="mx-auto" style="width: 95%;">
+        <div class="mx-auto" style="width: 95%; padding-top: 15px;">
             <div class="row">
                 <div class="col-sm-11">
-                    <a href="../dhraccess.html" style="color: black;"><h1><</h1>
+                    <a href="../dhraccess.html" style="color: black;">
+                        <img src="../../img/Arrow.png" style="width: 45px;">
                      </a>
                 </div>
                 <div class = "col-sm-1">
@@ -108,31 +34,31 @@
                 </div>
             </div>
         <br><br>
-        <h1 style="font-size: 60px; font-weight: bold;">ELECTRICALLY HEATED PLATES</h1>
+        <h1 style="font-size: 60px; font-weight: bold; color: rgb(0, 82, 155);">ELECTRICALLY HEATED PLATES</h1>
         <br><br><br><br>
 
         <div class="row">
             <div class="col-sm-4">
-                <img src = "../img/evf.PNG" style="width: 100%;">
+                <img src = "../../img/PNG/3D CulturePro Bioreactors.png" style="width: 80%;">
             </div>
             <div class="col-sm-8">
                 <div class="row" id="my_styles">
                     <span>  
-                       <button type="button" id="tabs1" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Description</button>&emsp;
+                       <button type="button" id="tabs1" onClick="showStuff(this)" class=" btn btn-outline-primary badge-pill">Description</button>&emsp;
                         <button type="button" id="tabs2" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
-                        <button type="button" id="tabs3" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Applications</button>&emsp;
+    
                     </span>
                 </div>
                 <br><br><br>
                 <div id="tabs-1" class="tabContent">
-                    <p>The EHP provides active heating and cooling of parallel plate and cone and plate geometries. With standard and disposable systems it is ideal for rheological characterization of polymer melts and thermosetting materials up to a maximum temperature of 400 °C. The optional Gas Cooling Accessory extends the minimum temperature to -70 °C. Standard features include 25 mm diameter parallel plate geometry, environmental cover, and heated purge gas. An optional clear cover is available for sample viewing and for use with the Camera Viewer option. The EHP offers Active Temperature Control (ATC) making it the only electrically heated plate system capable of direct temperature control of the upper and lower plates (See ATC Section for more details on this exciting technology). The upper EHP can be used with lower Peltier Plates for temperature control to 200 °C and as temperature control to 150 °C for UV curing options. 
-                         </p>
+                    <p> The EHP provides active heating and cooling of parallel plate and cone and plate geometries. With standard and disposable systems it is ideal for rheological characterization of polymer melts and thermosetting materials up to a maximum temperature of 400 °C. The optional Gas Cooling Accessory extends the minimum temperature to -70 °C. Standard features include 25 mm diameter parallel plate geometry, environmental cover, and heated purge gas. An optional clear cover is available for sample viewing and for use with the Camera Viewer option. The EHP offers Active Temperature Control (ATC) making it the only electrically heated plate system capable of direct temperature control of the upper and lower plates (See ATC Section for more details on this exciting technology). The upper EHP can be used with lower Peltier Plates for temperature control to 200 °C and as temperature control to 150 °C for UV curing options. 
+
+                     </p>
                 </div>
                 <div id="tabs-2" class="tabContent" style="display:none;">
-                    <p><b>Features and Benefits</b>
-                    <br>
+                    <P>
                     <ul>
-                        <li>Smart Swap™ technology </li>
+                        <li>Sealed system for rheological measurements at high pressure and temperature </li>
                         <li>ATC with patented Non-Contact Upper Temperature Sensor </li>
                         <li>Patented Smart Swap™ geometries </li>
                         <li>Maximum temperature of 400 °C </li>
@@ -140,7 +66,7 @@
                         <li>Maximum heating rate of up to 30 °C/min </li>
                         <li>Controllable heating rates of 10 °C/min </li>
                         <li>Environmental cover and heated purge gas </li>
-                        <li>Modeled for optimum heat transfer with minimum sample thermal equilibration time </li> 
+                        <li>Modeled for optimum heat transfer with minimum sample thermal equilibration time </li>
                         <li>Heat transfer to sample independent of gap setting </li>
                         <li>Sample trimming and plate removal tools </li>
                         <li>Disposable Plate System </li>
@@ -148,27 +74,22 @@
                         <li>Ideal for QC testing or R&D </li>
                         <li>Upper heater compatible with all Peltier Plate systems and UV curing accessories </li>
                     </ul>
+
+
                     </p>
                 </div>
-                <div id="tabs-3" class="tabContent" style="display:none;">
-                    <img src="../img/ehp.jpg">
-                    <br>
-                    <h3><b>Controlling Polymer Degradation During Testing</b></h3>
-                    Viscoelastic properties of polymer melts can be affected by thermal and oxidative degradation at elevated temperatures. It is important to measure rheological properties in the absence of degradation, as well as evaluating the effectiveness of stabilizing additives such as antioxidants. This figure shows how effectively the EHP controls the environment for commercial polystyrene melt during a 10-hour time sweep experiment at 200 °C. The storage modulus, G’, can be seen to be very stable during the early stages of the test when the sample is purged with nitrogen. The data demonstrate the environment in the EHP is virtually oxygen-free. After about 4 hours, the inert gas is shut off and the effect of presence of oxygen on the viscoelastic response is seen immediately. The polystyrene degrades as evidenced by the sharp decrease in G’. 
-                    
-                </div>
 
- 
+            </div>
         </div>
-    </div>
     <div class="row">
         <div class="col-sm-10">
     
         </div>
         <div class="col-sm-1">
-            <br><br>
-            <img src="../../img/logo.PNG" style="width: 125px;">
-        </div>
+            
+            <a href="../../index.html">
+                <img src="../../img/logo.PNG" style="width: 125px; padding-bottom: 15px; padding-right: 15px;">
+                </a>        </div>
     </div></div>
     </body>
     <script>

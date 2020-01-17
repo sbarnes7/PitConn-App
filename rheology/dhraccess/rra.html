@@ -1,94 +1,20 @@
 <html>
     <head>
-        <title>Rheo-Raman Accessory</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>Rheo-Rhaman Accessory</title>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<link href="../../bootstrap-4.4.1-dist/css/bootstrap.min.css" media="all" type="text/css" rel="stylesheet">
+<link href="../../bootstrap-4.4.1-dist/js/bootstrap.min.js" media="all" type="text/css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="../../instruments.css">
     </head>
-    <style>
-    #html, body{
-        color: rgb(0, 32, 78);
-        font-family: 'Open Sans', sans-serif;
 
-    }
-    .container{
-        width: 100%;
-    }
-    .figure-caption{
-        color: rgb(0, 82, 155);
-        font-weight: bolder;
-    }
-        /* The side navigation menu */
-.sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  right: 0;
-  background-color: whitesmoke; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: bold;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.btn:hover{
-    background-color:rgb(0, 82, 155);
-}
-.btn:active{
-    background-color:rgb(0, 82, 155);
-}
-.btn{
-    color:rgb(0, 82, 155);
-    border-color:rgb(0, 82, 155);
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: rgb(0, 32, 78);
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left .5s;
-  padding: 20px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-
-    </style>
     <body>
-        <div class="mx-auto" style="width: 95%;">
+        <div class="mx-auto" style="width: 95%; padding-top: 15px;">
             <div class="row">
                 <div class="col-sm-11">
-                    <a href="../dhraccess.html" style="color: black;"><h1><</h1>
+                    <a href="../dhraccess.html" style="color: black;">
+                        <img src="../../img/Arrow.png" style="width: 45px;">
                      </a>
                 </div>
                 <div class = "col-sm-1">
@@ -108,38 +34,36 @@
                 </div>
             </div>
         <br><br>
-        <h1 style="font-size: 60px; font-weight: bold;">RHEO-RHAMAN ACCESSORY</h1>
+        <h1 style="font-size: 60px; font-weight: bold; color: rgb(0, 82, 155);">RHEO-RHAMAN ACCESSORY</h1>
         <br><br><br><br>
 
         <div class="row">
             <div class="col-sm-4">
-                <img src = "../img/evf.PNG" style="width: 100%;">
+                <img src = "../../img/PNG/3D CulturePro Bioreactors.png" style="width: 80%;">
             </div>
             <div class="col-sm-8">
                 <div class="row" id="my_styles">
                     <span>  
-                       <button type="button" id="tabs1" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Description</button>&emsp;
-                        <button type="button" id="tabs4" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
-                        <button type="button" id="tabs6" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Applications</button>&emsp;
+                       <button type="button" id="tabs1" onClick="showStuff(this)" class=" btn btn-outline-primary badge-pill">Description</button>&emsp;
+                        <button type="button" id="tabs2" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
+    
                     </span>
                 </div>
                 <br><br><br>
-                <div id="tabs-1" class="tabContent mx-auto">
-                    <p> 
-                   
-
-The new Rheo-Raman Accessory for the Discovery Hybrid Rheometers allows for simultaneous collection of Raman spectroscopy data during rheology experiments. Raman spectroscopy is a technique that provides critical information about molecular structure and bonding and can elucidate intermolecular interactions of pure components and mixtures. This includes information about a material’s crystallinity and conformational order. The Rheo-Raman Accessory from TA Instruments integrates with the iXR Raman Spectrometer from Thermo Fisher Scientific to provide a turnkey, safe system with Class 1 laser certification. 
- </p>
+                <div id="tabs-1" class="tabContent">
+                    <p> The new Rheo-Raman Accessory for the Discovery Hybrid Rheometers allows for simultaneous collection of Raman spectroscopy data during rheology experiments. Raman spectroscopy is a technique that provides critical information about molecular structure and bonding and can elucidate intermolecular interactions of pure components and mixtures. This includes information about a material’s crystallinity and conformational order. The Rheo-Raman Accessory from TA Instruments integrates with the iXR Raman Spectrometer from Thermo Fisher Scientific to provide a turnkey, safe system with Class 1 laser certification. 
+                         </p>
                 </div>
-                <div id="tabs-4" class="tabContent mx-auto" style="display: none;">
+                <div id="tabs-2" class="tabContent" style="display:none;">
+                    <P>
                     <ul>
-                        <LI>Integrated operation with Thermo FisherTM iXR Raman spectrometer </LI>
-                        <li>Choice of different lasers for maximum versatility </li>
-                        <ul>
-                           <li>432 nm, 532 nm and 785 nm (high brightness, high power options) </li> 
+                       <LI>Integrated operation with Thermo Fisher<sup>TM</sup> iXR Raman spectrometer </LI> 
+                       <li>Choice of different lasers for maximum versatility </li>
+                       <ul>
+                           <li>432 nm, 532 nm and 785 nm (high brightness, high power options) </li>
                            <li>User installable laser sets — quick and easy to switch lasers </li>
-                        </ul>
-                       <li>Multiple interlocks for class 1 laser classification </li> 
+                       </ul>
+                       <li>Multiple interlocks for class 1 laser classification </li>
                        <li>Safe under all conditions of normal use </li>
                        <li>Free space coupling maximizes laser intensity at sample </li>
                        <li>Software integration provides seamless Rheo-Raman experiments </li>
@@ -153,43 +77,21 @@ The new Rheo-Raman Accessory for the Discovery Hybrid Rheometers allows for simu
                        <li>Fine axial adjustment for focusing inside the sample </li>
                        <li>Quartz plates minimize fluorescence artefacts </li>
                     </ul>
+
+                    </p>
                 </div>
 
-                <div id="tabs-6" class="tabContent mx-auto" style="display: none;">
-                    The direct link between the thermally initiated changes in molecular order and flow properties is examined for a cosmetic lotion. The sample was heated at 1°C/min from 25 °C to 90 °C – the rheology was monitored through an oscillatory test and the Raman spectra were simultaneously recorded. 
-                    <br>
-                    <h3><b>Effect of Temperature on Rhaman Spectra</b></h3>
-                    <img src="../img/rra1.png">
-                    <br>
-                    <br>
-                    The effect of temperature on the sample spectra is summarized in the plots above. Significant changes were observed in two specific regions of the spectra and the following peaks were identified for further analysis. 
-                    <ol>
-                        <li>C-C Gauche/ Trans peaks (1060 cm-1/ 1080 cm-1)</li>
-                        <li>CH2 Symmetric/Antisymmetric stretch peaks (2960 cm-1, 2904 cm-1)</li>
-                    </ol>
-                    The ratio of the peak intensities – Gauche to Trans, and Symmetric to Antisymmetric – characterize the chain conformation and crystalline order in the sample. 
-                    <br><br>
-                    <h3><b>Rheo-Rhaman Analysis Regions</b></h3>
-                    <img src="../img/rra2.png">
-                    <br>
-                    The Rheo-Raman results from the temperature ramp test are shown in the plot above – the data display excellent agreement between bulk rheology and chemical structural changes. As the lotion is heated, the storage and loss moduli drop significantly. This is accompanied by reduction in the Symmetric/Antisymmetric peak ratio and a concurrent increase in the number of Gauche conformers. 
-                    <br>
-Together, the changes in the Raman spectra reveal an increase in chain mobility and a transition to amorphous content, consistent with the melting of cetyl alcohol and the sample rheology. This example demonstrates the effectivity of Rheo-Raman analysis to specifically correlate chemical structural changes with rheology, enabling formulators to prescriptively tune the product performance through its chemical composition. 
-                    <br><br>
-                    <h3><b>Quantitative Rheo-Rhaman Analysis</b></h3>
-                    <img src="../img/rra3.png">
-                </div>
- 
+            </div>
         </div>
-    </div>
     <div class="row">
         <div class="col-sm-10">
     
         </div>
         <div class="col-sm-1">
-            <br><br>
-            <img src="../../img/logo.PNG" style="width: 125px;">
-        </div>
+            
+            <a href="../../index.html">
+                <img src="../../img/logo.PNG" style="width: 125px; padding-bottom: 15px; padding-right: 15px;">
+                </a>        </div>
     </div></div>
     </body>
     <script>
