@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <title>Advanced Peltier Plate System</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link href="../../bootstrap-4.4.1-dist/css/bootstrap.min.css" media="all" type="text/css" rel="stylesheet">
+<link href="../../bootstrap-4.4.1-dist/js/bootstrap.min.js" media="all" type="text/css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="../../instruments.css">
+    </head>
+  
+    <body>
+        <div class="mx-auto" style="width: 95%;">
+            <div class="row">
+                <div class="col-sm-11">
+                    <a href="../aresg2access.html" style="color: black;">
+                        <img src="../../img/Arrow.png" style="width: 45px;">
+                     </a>
+                </div>
+                <div class = "col-sm-1">
+            <div class="text text-right">
+                <div id="mySidenav" class="sidenav text text-center">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="../../index.html">Home</a>
+                    <a href="../../materials.html">Applications</a>
+                    <a href="../../instruments.html">Instruments</a>
+                    <a href="../../videos.html">Videos</a>
+                  </div>
+                  
+                  <!-- Use any element to open the sidenav -->
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+            </div>
+                </div>
+            </div>
+
+        <br><br>
+        <h1 style="font-size: 60px; font-weight: bold; color: rgb(0, 82, 155);">ADVANCED PELTIER PLATE SYSTEM</h1>
+        <h2>Stable, responsive Peltier temperature control technology featuring interchangeable plates or cylinders.</h2>
+        <br><br>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img src = "img/ARES-G2_Advanced Peltier System.png" style="width: 80%;">
+            </div>
+            <div class="col-sm-8">
+                <div class="row" id="my_styles">
+                    <span>  
+                       <button type="button" id="tabs1" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Description</button>&emsp;
+                        <button type="button" id="tabs2" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Geometrics</button>&emsp;
+                        <button type="button" id="tabs3" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Accessories</button>&emsp;
+                    </span>
+                </div>
+                <br><br><br>
+                <div id="tabs-1" class="tabContent">
+                    <p> The APS is a Smart SwapTM Peltier temperature controlled environmental system with a temperature range of -10 to 150 °C, 
+                        with a maximum heating rate of 20°C/min and a temperature accuracy of +/- 0.1 °C. Unlike other Peltier temperature systems,
+                         the APS features parallel plate (cone and plate) as well as DIN conforming concentric cylinder geometries to meet the most demanding applications.
+                          The new quick-change lower plate comes standard with a 60 mm diameter hardened chromium surface and a unique bayonet fixture
+                           that allows the user to <b>quickly and easily adapt the plate surfaces</b> to  crosshatched or sandblasted finishes. 
+                           The APS also features an efficient heated solvent trap cover for blocking evaporation during testing of volatile materials. 
+                         </p>
+                </div>
+                <div id="tabs-2" class="tabContent" style="display:none;">
+                    <p>
+                        <div class="row mx-auto">
+                            <div class="col-sm-5">
+                                <h4><b>Cone and Parallel Plate Geometries:</b></h4><br>
+                                Several upper geometry types are available based on the needs of the test at hand. Heat break collars reduce heat transfer and improve temperature uniformity while maintaining the ruggedness and chemical resistance of a stainless steel plate. Low expansion and low thermal conductivity polyphenyl sulfone (PPS) plates further improve temperature uniformity. 
+
+                            </div>
+                            <div class="col-sm-7">
+                                <img src="img/aps1.jpg" style="width: 80%;">
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="row mx-auto">
+                            <div class="col-sm-5">
+                                <h4><b>Plate Surface Textures:</b></h4><br>
+                                Both upper geometries and lower quick change plates are available with a range of surface textures. Roughened surfaces effectively eliminate slip, an artifact which can occur with many materials, particularly filled systems. 
+
+                            </div>
+                            <div class="col-sm-7">
+                                <img src="img/aps2.jpg" style="width: 80%;">
+
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="row mx-auto">
+                            <div class="col-sm-5">
+                                <h4><b>Quick Change Plates:</b></h4><br>
+                                The APS features a Quick Change Plate system that allows several lower plate covers to be easily attached using a simple bayonet-style locking ring. These plates can be selected based on material, diameter, and surface finish. Disposable plates are also available for curing materials. 
+
+                            </div>
+                            <div class="col-sm-7">
+                                <img src="img/aps3.jpg" style="width: 80%;">
+
+                            </div>
+                        </div>
+                        <br><br>
+                    </p>
+                </div>
+                <div id="tabs-3" class="tabContent" style="display: none;">
+                <div class="row mx-auto">
+                    <div class="col-sm-5">
+                        <h4><b>Peltier Solvent Trap and Evaporation Blocker:</b></h4><br>
+                        The Solvent Trap cover and Solvent Trap geometry work in concert to create a thermally stable vapor barrier, virtually eliminating solvent loss during the experiment. The geometry includes a reservoir that is filled with a very low viscosity oil or the volatile solvent present in the sample. The Solvent Trap cover includes a blade that is placed into the solvent contained in the well without touching any other part of the upper geometry. A uniform temperature, saturated vapor, environment is established, preventing loss from the sample and condensation from the cover. The Solvent Trap sits directly on a centering ring at the top of the APS surface for easy positioning. 
+
+                    </div>
+                    <div class="col-sm-7">
+                        <img src="img/aps4.jpg" style="width: 80%;">
+
+                    </div>
+                </div><br><br>
+                <div class="row mx-auto">
+                    <div class="col-sm-5">
+                        <h4><b>Immersion Cup:</b></h4><br>
+                        The APS Immersion Cup allows samples to be measured while fully immersed in a fluid. It attaches easily to the top of the APS Plate with the bayonet fixture. A rubber ring provides the fluid seal and allows for easy sample loading, trimming, and subsequent sealing and filling. The Immersion Cup system can accommodate plates or cones up to 40 mm in diameter. This accessory is ideal for studying the properties of hydrogels. 
+
+                    </div>
+                    <div class="col-sm-7">
+                        <img src="img/aps5.jpg" style="width: 80%;">
+
+                    </div>
+                </div><br><br>
+                </div>
+
+   </div>
+</div>
+    <div class="row">
+        <div class="col-sm-10">
+    
+        </div>
+        <div class="col-sm-1">
+         
+            <a href="../../index.html">
+                <img src="../../img/logo.PNG" style="width: 125px; padding-top: 15px; padding-bottom: 15px; padding-right: 15px;">
+            </a>        </div>
+    </div>
+    </div>
+    </body>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "350px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        function showStuff(element)  {
+    var tabContents = document.getElementsByClassName('tabContent');
+    for (var i = 0; i < tabContents.length; i++) { 
+        tabContents[i].style.display = 'none';
+    }
+
+    // change tabsX into tabs-X in order to find the correct tab content
+    var tabContentIdToShow = element.id.replace(/(\d)/g, '-$1');
+    document.getElementById(tabContentIdToShow).style.display = 'block';
+}
+jQuery("#my_styles .btn").click(function(){
+        jQuery("#my_styles .btn").removeClass('active');
+        jQuery(this).toggleClass('active'); 
+});
+
+            </script>
+</html>

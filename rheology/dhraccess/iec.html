@@ -1,0 +1,195 @@
+<html>
+    <head>
+        <title>Interfacial Exchange Cell</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    </head>
+    <style>
+    #html, body{
+        color: rgb(0, 32, 78);
+        font-family: 'Open Sans', sans-serif;
+
+    }
+    .container{
+        width: 100%;
+    }
+    .figure-caption{
+        color: rgb(0, 82, 155);
+        font-weight: bolder;
+    }
+        /* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: whitesmoke; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.btn:hover{
+    background-color:rgb(0, 82, 155);
+}
+.btn:active{
+    background-color:rgb(0, 82, 155);
+}
+.btn{
+    color:rgb(0, 82, 155);
+    border-color:rgb(0, 82, 155);
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: rgb(0, 32, 78);
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+    </style>
+    <body>
+        <div class="mx-auto" style="width: 95%;">
+            <div class="row">
+                <div class="col-sm-11">
+                    <a href="../dhraccess.html" style="color: black;"><h1><</h1>
+                     </a>
+                </div>
+                <div class = "col-sm-1">
+            <div class="text text-right">
+                <div id="mySidenav" class="sidenav text text-center">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="../../index.html">Home</a>
+                    <a href="../../materials.html">Applications</a>
+                    <a href="../../instruments.html">Instruments</a>
+                    <a href="../../videos.html">Videos</a>
+                  </div>
+                  
+                  <!-- Use any element to open the sidenav -->
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+            </div>
+                </div>
+            </div>
+        <br><br>
+        <h1 style="font-size: 60px; font-weight: bold;">INTERFACIAL EXCHANGE CELL</h1>
+        <br><br><br><br>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img src = "../img/evf.PNG" style="width: 100%;">
+            </div>
+            <div class="col-sm-8">
+                <div class="row" id="my_styles">
+                    <span>  
+                       <button type="button" id="tabs1" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Description</button>&emsp;
+                        <button type="button" id="tabs4" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Technology</button>&emsp;
+                        <button type="button" id="tabs5" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Applications</button>&emsp;
+                    </span>
+                </div>
+                <br><br><br>
+                <div id="tabs-1" class="tabContent mx-auto">
+                    <p> 
+                        The Interfacial Exchange Cell expands TA Instruments’ patented offerings for interfacial rheology by providing the ability to directly manipulate the composition of the lower liquid layer (subphase) during rheological measurements. This unique capability enables the characterization of the interfacial response to a modified subphase composition, opening possibilities for quantifying the effects of changes in pH, salt, or drug concentration, or the introduction of new proteins, surfactants, or other active ingredients 
+                    </p>
+                </div>
+                <div id="tabs-4" class="tabContent mx-auto" style="display: none;">
+                    <h3><b>Exchange Cell Trough</b></h3>
+                    <img src="../img/iec1.png">
+                    <br>
+                    The specially-designed double wall interfacial trough (2) features strategically placed fluid inlet and outlet ports to exchange the subphase during a rheological measurement. During the experiment, the new subphase is introduced through four ports located at the bottom of the cell while the same volume is simultaneously removed through four ports located just below the fluid/fluid interface. This concurrent exchange and the balanced trough design ensures uniform infusion and withdrawal guaranteeing a constant subphase volume and interface location throughout the test. 
+                    <br>
+(2) U.S. Patent # 7,926,326 
+                    <br><br>
+                    <h3><b>Double Wall Ring</b></h3>
+                    The Interfacial Exchange Cell uses the ultra-low inertia Double Wall Ring (DWR) as the measuring geometry. Featuring a large diameter and a diamond shaped cross-section to “pin” the interface to the ring, the DWR is the preferred platform for sensitive, quantitative interfacial rheology data. 
+                    <br><br>
+                    <h3><b>Syringe Pump</b></h3>
+                    <img src="../img/iec2.jpg">
+                    <br>
+                    The subphase exchange is precisely executed by a simultaneous infuse/withdraw syringe pump that is directly controlled and programmed through TRIOS software. A pair of syringes at each side allow for a complete and uniform exchange of the subphase volume while maintaining a constant interfacial height. At a representative 6 mL/min flow rate, the subphase volume inside the cell can be completely exchanged within 8 minutes. 
+
+                </div>
+                <div id="tabs-5" class="tabContent mx-auto" style="display: none;">
+                    <img src="../img/iec3.png">
+                    <br>
+                    <h3><b>Controlled Infusion of Soap Solution</b></h3>
+                    The interfacial strength of a protein network adsorbed at an oil/water interface can be affected by factors such as the pH, salt concentration, and presence of surfactants. In this example, a strong and stable network of bovine serum albumin was formed at the interface between a phosphate-buffered saline solution and dodecane. 
+                    <br>
+                    Next, the buffer solution in the subphase was exchanged with a very dilute soap solution. Within minutes after the infusion of the soap solution, the interfacial moduli drop several orders of magnitude, reflecting a dramatic destruction of the protein interface. The introduction of the surfactant lowers the surface tension and displaces protein molecules from the interface. Over time, the continued accumulation of surfactant at the interface brings about the catastrophic destruction of the original protein interface through an orogenic displacement or phase separation processes 
+
+                </div>
+ 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+    
+        </div>
+        <div class="col-sm-1">
+            <br><br>
+            <img src="../../img/logo.PNG" style="width: 125px;">
+        </div>
+    </div></div>
+    </body>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "350px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        function showStuff(element)  {
+    var tabContents = document.getElementsByClassName('tabContent');
+    for (var i = 0; i < tabContents.length; i++) { 
+        tabContents[i].style.display = 'none';
+    }
+
+    // change tabsX into tabs-X in order to find the correct tab content
+    var tabContentIdToShow = element.id.replace(/(\d)/g, '-$1');
+    document.getElementById(tabContentIdToShow).style.display = 'block';
+}
+jQuery("#my_styles .btn").click(function(){
+        jQuery("#my_styles .btn").removeClass('active');
+        jQuery(this).toggleClass('active'); 
+});
+
+            </script>
+</html>

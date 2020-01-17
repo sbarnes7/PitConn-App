@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <title>DXF 900</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link href="../bootstrap-4.4.1-dist/css/bootstrap.min.css" media="all" type="text/css" rel="stylesheet">
+<link href="../bootstrap-4.4.1-dist/js/bootstrap.min.js" media="all" type="text/css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="../instruments.css">
+
+    </head>
+
+    <body>
+        <div class="mx-auto" style="width: 95%; padding-top: 15px;">
+            <div class="row">
+                <div class="col-sm-11">
+                    <a href="../fda.html" style="color: black;">
+                        <img src="../img/Arrow.png" style="width: 45px;">
+                     </a>
+                </div>
+                <div class = "col-sm-1">
+            <div class="text text-right">
+                <div id="mySidenav" class="sidenav text text-center">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="../index.html">Home</a>
+                    <a href="../materials.html">Applications</a>
+                    <a href="../instruments.html">Instruments</a>
+                    <a href="../videos.html">Videos</a>
+                  </div>
+                  
+                  <!-- Use any element to open the sidenav -->
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+            </div>
+                </div>
+            </div>
+        <br><br>
+        <h1 style="font-size: 60px; font-weight: bold; color: rgb(0, 82, 155);">DXF 900</h1>
+        <h2>Powerful high-speed Xenon source and patented delivery optics for the most accurate thermal diffusivity measurements up to 900°C.</h2>
+        <br><br>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img src = "../img/PNG/Xenon Flash DXF 900.png" style="width: 80%;">
+            </div>
+            <div class="col-sm-8">
+                <div class="row" id="my_styles">
+                    <span>  
+                       <button type="button" id="tabs1" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Description</button>&emsp;
+                        <button type="button" id="tabs2" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
+                        <button type="button" id="tabs3" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Specifications</button>&emsp;
+                        <button type="button" id="tabs4" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Applications</button>&emsp;
+                    </span>
+                </div>
+                <br><br><br>
+                <div id="tabs-1" class="tabContent">
+                    <p> The Discovery Xenon Flash DXF 900 platform features a patented High-Speed Xenon-pulse Delivery™ source (HSXD) and an anamorphic multi-faceted Light Pipe™. Together, these optics deliver a light pulse of unsurpassed power and uniform intensity to the specimen, while preventing sample holder over-flash.  The TA Instruments High-energy Xenon design is capable of testing samples up to a diameter of 25.4 mm over a temperature range from ambient to 900°C. The use of large samples diminishes errors associated with inhomogeneity and permits representative measurements of poorly dispersed composites. The DXF platform is designed for research and development programs as well as production control.
+                         </p>
+                </div>
+                <div id="tabs-2" class="tabContent" style="display:none;">
+                    <p><b>Features and Benefits:</b>
+                    <br>
+                        <ul>
+                            <li>Patented High-Speed Xenon Pulse-Delivery system provides 50% more energy than competitive designs for the highest degree of accuracy on widest range of samples regardless of thickness or thermal conductivity </li>
+                            <li>Patented Light Pipe™ for the most effective collection and collimation of light, and homogeneous delivery of radiation to the sample </li>
+                            <li>Real-time pulse mapping for superior thermal diffusivity of thin and highly conductive materials </li>
+                            <li>Wide variety of sample trays accommodates multiple sample sizes (up to 25.4 mm diameter), shapes, and special fixtures (liquids, powders, laminates, films, etc.) for maximum sample testing flexibility </li>
+                            <li>Autosampler with patented four-position alumina sample tray for maximum productivity </li>
+                            <li>Advanced resistance heated furnace design provides best-in-class temperature stability and uniformity across sample from RT to 900°C, and enables measurements in air, inert gas, or vacuum </li>
+                            <li>High sensitivity IR detector for optimum signal-to-noise ratio, delivering highest accuracy over the entire temperature range </li>
+                            <li>Designed to meet industry standard test methods including ASTM E1461, ASTM C714, ASTM E2585, ISO 13826, ISO 22007-Part4, ISO 18755, BS ENV 1159-2, DIN 30905, and DIN EN821 </li>
+
+                        </ul>
+                    </p>
+                </div>
+                <div id="tabs-3" class="tabContent" style="display: none;">
+                    <p> <img src="../img/specTables/Flash Diffusivity-DXF 900.png"></p>
+                </div>
+                <div id="tabs-4" class="tabContent" style = "display: none;">
+                    <div class="row">
+                        <div class="col-sm-5">
+                    <b style="color:rgb(0, 82, 155);">Accuracy of Xenon Flash</b>
+                    <br>
+                    <br>
+                    Pyroceram®, a glass-ceramic used for high temperature applications, has been used for over 30 years as a material for verification of the measurement of thermal heat management properties at high temperature. Pyroceram® 9606, a standard reference material (SRM) readily available from NIST, was tested on the DXF 900 to a temperature of 700°C to demonstrate the accuracy of TA Instruments Xenon Flash technology to high temperatures. The figure to the top right shows results are in excellent agreement with the standard reference values. 
+                    <br><br>                    
+                        </div>
+                        <div class="col-sm-7">
+                    <img src="../img/dxf900specs.jpg" style="width: 90%;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-5">
+                    <b style="color:rgb(0, 82, 155);">Consistent Data from -150°C to 900°C</b>
+                    <br>
+
+                    <br>
+                    Often high performance materials need to be characterized from extremely low to high temperatures. The graph on the lower right shows an oxygen-free high thermal conductivity copper (OFHC) reference material in which thermal conductivity was measured from -150°C to 900°C with both a DXF 200 and DXF 900. 
+                    <br><br>
+                        </div>
+                        <div class="col-sm-7">
+                    <img src="../img/dxf900specs1.jpg" style="width: 90%;">
+                        </div>
+                    </div>
+
+All the measurements fall within ±1.5% of the reference values. Note the agreement of the values between ambient and 200˚C                     
+
+
+
+
+
+
+
+
+                </div>
+       </div></div>
+    <div class="row">
+        <div class="col-sm-10">
+    
+        </div>
+        <div class="col-sm-1">
+            
+            <a href="../index.html">
+                <img src="../img/logo.PNG" style="width: 125px; padding-top: 15px; padding-bottom: 15px; padding-right: 15px;">
+            </a>           </div>
+    </div></div>
+    </body>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "350px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        function showStuff(element)  {
+    var tabContents = document.getElementsByClassName('tabContent');
+    for (var i = 0; i < tabContents.length; i++) { 
+        tabContents[i].style.display = 'none';
+    }
+
+    // change tabsX into tabs-X in order to find the correct tab content
+    var tabContentIdToShow = element.id.replace(/(\d)/g, '-$1');
+    document.getElementById(tabContentIdToShow).style.display = 'block';
+}
+jQuery("#my_styles .btn").click(function(){
+        jQuery("#my_styles .btn").removeClass('active');
+        jQuery(this).toggleClass('active'); 
+});
+            </script>
+</html>

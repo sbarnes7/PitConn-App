@@ -1,0 +1,168 @@
+<html>
+    <head>
+        <title>Dynamic Mechanical Analyzers</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link href="../bootstrap-4.4.1-dist/css/bootstrap.min.css" media="all" type="text/css" rel="stylesheet">
+<link href="../bootstrap-4.4.1-dist/js/bootstrap.min.js" media="all" type="text/css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="../instruments.css">
+
+    </head>
+
+    <body>
+        <div class="mx-auto" style="width: 95%; padding-top: 15px;">
+            <div class="row">
+                <div class="col-sm-11">
+                    <a href="../thermalanalysis.html" style="color: black;">
+                        <img src="../img/Arrow.png" style="width: 45px;">
+                     </a>
+                </div>
+                <div class = "col-sm-1">
+            <div class="text text-right">
+                <div id="mySidenav" class="sidenav text text-center">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="../index.html">Home</a>
+                    <a href="../materials.html">Applications</a>
+                    <a href="../instruments.html">Instruments</a>
+                    <a href="../videos.html">Videos</a>
+                  </div>
+                  
+                  <!-- Use any element to open the sidenav -->
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+            </div>
+                </div>
+            </div>
+        <br><br>
+        <h1 style="font-size: 60px; font-weight: bold; color: rgb(0, 82, 155);">DISCOVERY DMA</h1>
+        <h2>Dynamic Mechanical Analyzers</h2>
+        <br><br><br><br>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img src = "../img/DMA 850.png" style="width: 80%;">
+            </div>
+            <div class="col-sm-8">
+                <div class="row" id="my_styles">
+                    <span>  
+                       <button type="button" id="tabs1" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Description</button>&emsp;
+                        <button type="button" id="tabs2" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
+                        <button type="button" id="tabs3" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Specifications</button>&emsp;
+                        <button type="button" id="tabs4" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Applications</button>&emsp;
+                        <button type="button" id="tabs5" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Videos</button>&emsp;
+                    </span>
+                </div>
+                <br><br><br>
+                <div id="tabs-1" class="tabContent">
+                    <p> <b>Dynamic Mechanical Analysis</b> measures the mechanical properties of materials as a function of time, temperature, and frequency. 
+                        In addition to basic material properties, DMA also quantifies finished part characteristics, reflecting the important contribution
+                         that processing has on end-use performance. DMA is commonly used to measure glass transition temperatures and secondary transitions,
+                          orientation caused by processing, cold crystallization, cure optimization, filler effects in composites, and much more. 
+                          DMA provides an accurate measure of material stiffness (modulus) but also other important mechanical properties such as damping,
+                           creep, and stress relaxation. 
+
+                        <br><br>TA Instruments is the world leader in Dynamic Mechanical Analysis, offering two state-of-the art dedicated DMA instruments and additional
+                         DMA capability through our rheometers and mechanical test instruments. All TA Instruments DMA products feature innovative technology for
+                          force and displacement measurements, temperature control and accuracy, instrument stiffness, and ease-of-use.  </p>
+                </div>
+                <div id="tabs-2" class="tabContent" style="display:none;">
+                    <p><b>Features and Benefits:</b>
+                    <br>
+                    <ul>
+                        <li>
+                            Non-contact, low mass motor delivers continuous forces from 0.1 mN to 18 N to measure everything from soft to stiff materials                         </li>
+                        <li>
+                            Frictionless, low-compliance air bearing design ensures superior force sensitivity and accuracy                         </li>
+                        <li>
+                            Unique optical encoder technology provides 0.1 nm resolution over a 25 mm continuous range of travel for ultimate testing versatility                         </li>
+                        <li>
+                            New DirectStrain™ and Intelligent Autoranging controls allow you to measure the widest range of sample stiffness and frequencies for the best data, the first time, every time                         </li>
+                        <li>
+                            Choice of two dedicated environmental systems for precise, responsive control under the most relevant test conditions                         </li>
+                        <li>
+                            Exclusive Air Chiller Systems provide effective controlled cooling to -100°C without the cost or hassle of liquid nitrogen                         </li>
+                        <li>
+                            Purpose-built, high-stiffness, low mass clamps are easy-to-use and ensure data repeatability                         </li>
+                            <li>
+                                New innovative “app-style” touch screen puts instrument functionality simply One-Touch-Away™, enhancing usability and making it easier than ever to get great data  
+                            </li>
+                            <li>
+                                Powerful TRIOS software provides simple set-up and execution through separate test interfaces designed for novice or expert users. 
+                            </li>
+                            <li>
+                                Commitment to quality backed by the industry’s ONLY five-year furnace warranty for peace of mind 
+                            </li>
+
+                    </ul>
+                
+                    </p>
+                </div>
+                <div id="tabs-3" class="tabContent" style="display: none;">
+                    <p> <img src="../img/specTables/Thermal-DMA.png" style="width: 100%;"></p>
+                </div>
+                <div id="tabs-4" class="tabContent" style = "display: none;">
+                    <p>
+                        <div class="row mx-auto">
+                            <div class="col-sm-5">
+                                <h4 style="font-weight: bold; color: rgb(0, 82, 155);">Measurment of Tg of Polymeric Materials</h4>
+                                <br>
+                                A common measurement on polymers is the glass transition temperature, Tg. It can be measured with various techniques, but DMA is by far the most sensitive. The figure to the right shows a scan of a pressure-sensitive adhesive run in the tension clamps at a frequency of 1 Hz. Tg can be measured by the E’ onset point, by the E’’ peak, or the peak of Tan δ. In addition to the Tg, the absolute value of the various viscoelastic parameters is also useful. 
+
+                            </div>
+                            <div class="col-sm-7">
+                                <img src="../img/apptables/DMA-Measurement of Tg of Polymeric Materials .png" style="width: 100%;">
+                            </div>
+                        </div>
+                        <br><br>
+                        <b>Other Applications</b><br><br>
+                        <a type="button" id="tabs1" href="../materials/polymers/dma.html" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Polymers</a>&emsp;
+                        <a type="button" id="tabs4" href="../materials/electronics/dma.html" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Electronics</a>&emsp;
+                        <a type="button" id="tabs4" href="../materials/adhesives/dma.html" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Adhesives & Sealants</a>&emsp;
+                        <a type="button" id="tabs4" href="../materials/elastomers/dma.html" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Elastomers & Rubber</a>
+
+
+                    </p>
+                </div>
+                <div id="tabs-5" class="tabContent" style="display: none;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/egR8QpDcZOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+    </div>
+</div>
+    <div class="row">
+        <div class="col-sm-10">
+    
+        </div>
+        <div class="col-sm-1">
+            
+            <a href="../index.html">
+                <img src="../img/logo.PNG" style="width: 125px; padding-bottom: 15px; padding-right: 15px;">
+                </a>  
+                    </div>
+    </div>
+    </div>
+    </body>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "350px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        function showStuff(element)  {
+    var tabContents = document.getElementsByClassName('tabContent');
+    for (var i = 0; i < tabContents.length; i++) { 
+        tabContents[i].style.display = 'none';
+    }
+
+    // change tabsX into tabs-X in order to find the correct tab content
+    var tabContentIdToShow = element.id.replace(/(\d)/g, '-$1');
+    document.getElementById(tabContentIdToShow).style.display = 'block';
+}
+jQuery("#my_styles .btn").click(function(){
+        jQuery("#my_styles .btn").removeClass('active');
+        jQuery(this).toggleClass('active'); 
+});
+
+            </script>
+</html>

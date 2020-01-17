@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title>ElectroForce 3300</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link href="../bootstrap-4.4.1-dist/css/bootstrap.min.css" media="all" type="text/css" rel="stylesheet">
+<link href="../bootstrap-4.4.1-dist/js/bootstrap.min.js" media="all" type="text/css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="../instruments.css">
+
+    </head>
+
+    <body>
+        <div class="mx-auto" style="width: 95%; padding-top: 15px;">
+            <div class="row">
+                <div class="col-sm-11">
+                    <a href="../efmti.html" style="color: black;">
+                        <img src="../img/Arrow.png" style="width: 45px;">
+                     </a>
+                </div>
+                <div class = "col-sm-1">
+            <div class="text text-right">
+                <div id="mySidenav" class="sidenav text text-center">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="../index.html">Home</a>
+                    <a href="../materials.html">Applications</a>
+                    <a href="../instruments.html">Instruments</a>
+                    <a href="../videos.html">Videos</a>
+                  </div>
+                  
+                  <!-- Use any element to open the sidenav -->
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+            </div>
+                </div>
+            </div>
+        <br><br>
+        <h1 style="font-size: 60px; font-weight: bold; color: rgb(0, 82, 155);">ELECTROFORCE 3300</h1>
+        <h2>Unmatched dynamic performance envelope and versatility for applications that require up to 3 kN.
+        </h2>
+        <br><br>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img src = "../img/PNG/ElectroForce 3300.png" style="width: 80%;">
+            </div>
+            <div class="col-sm-8">
+                <div class="row" id="my_styles">
+                    <span>  
+                       <button type="button" id="tabs1" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Description</button>&emsp;
+                        <button type="button" id="tabs2" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
+                        <button type="button" id="tabs3" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Specifications</button>&emsp;
+                        <button type="button" id="tabs4" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Applications</button>&emsp;
+                    </span>
+                </div>
+                <br><br><br>
+                <div id="tabs-1" class="tabContent">
+                    <p> ElectroForce 3300 Series III instruments are well-suited for a variety of tests that include ASTM and ISO standards for materials and biomaterials characterization and long-term durability tests of materials, components and devices. 
+                        <br><br>
+                        The ElectroForce 3300 family includes two models; the ElectroForce 3310 provides 1000 N of maximum force while the ElectroForce 3330 provides 3000 N.  Both models are available with either table-top or floor-standing frames.   The floor-standing frame enables the expansion of capabilities by either adding torsion or extended stroke motors.  All configurations can perform tests that range from one cycle per day (or static tests) up to 100 Hz.  Select the force capacity and frame configuration that is appropriate for your testing needs. 
+
+                    </p>
+                </div>
+                <div id="tabs-2" class="tabContent" style="display:none;">
+                    <p><b>Features and Benefits:</b>
+                    <br>
+                        <ul>
+                            <li>High resolution and high accuracy displacement measurement for both the dynamic axial motor and the optional torsional motor </li>
+                            <li>Static to 100 Hz dynamic performance for a variety of applications </li>
+                            <li>Integrated System Status Indicator (SSI) Light for highly visible color-coded display of instrument status </li>
+                            <li>Electric motor driven test space adjustment with convenient locks, plus the added convenience of the lower Micro-adjust for precision alignment of grips. </li>
+                            <li>Optional 14 Nm and 25 Nm torsional motor are available for multi-axial test applications </li>
+                            <li>Optional 150 mm stroke extension motor to increase the instrument versatility for slower longer-travel tests </li>
+                            <li>Accommodates a variety of environmental chambers including temperature-controlled saline baths and hot/cold chambers </li>
+                        </ul>
+                    </p>
+                </div>
+                <div id="tabs-3" class="tabContent" style="display: none;">
+                    <img src="../img/specTables/Mechanical Testing-ElectroForce 3300.png">
+                </div>
+                <div id="tabs-4" class="tabContent" style = "display: none;">
+                    
+                </div>
+
+       </div></div>
+    <div class="row">
+        <div class="col-sm-10">
+    
+        </div>
+        <div class="col-sm-1">
+            
+            <a href="../index.html">
+                <img src="../img/logo.PNG" style="width: 125px; padding-top: 15px; padding-bottom: 15px; padding-right: 15px;">
+            </a>           </div>
+    </div></div>
+    </body>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "350px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        function showStuff(element)  {
+    var tabContents = document.getElementsByClassName('tabContent');
+    for (var i = 0; i < tabContents.length; i++) { 
+        tabContents[i].style.display = 'none';
+    }
+
+    // change tabsX into tabs-X in order to find the correct tab content
+    var tabContentIdToShow = element.id.replace(/(\d)/g, '-$1');
+    document.getElementById(tabContentIdToShow).style.display = 'block';
+}
+jQuery("#my_styles .btn").click(function(){
+        jQuery("#my_styles .btn").removeClass('active');
+        jQuery(this).toggleClass('active'); 
+});
+            </script>
+</html>

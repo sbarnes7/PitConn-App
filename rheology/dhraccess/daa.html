@@ -1,0 +1,209 @@
+<html>
+    <head>
+        <title>Dry Asphalt Accessory</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    </head>
+    <style>
+    #html, body{
+        color: rgb(0, 32, 78);
+        font-family: 'Open Sans', sans-serif;
+
+    }
+    .container{
+        width: 100%;
+    }
+    .figure-caption{
+        color: rgb(0, 82, 155);
+        font-weight: bolder;
+    }
+        /* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: whitesmoke; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.btn:hover{
+    background-color:rgb(0, 82, 155);
+}
+.btn:active{
+    background-color:rgb(0, 82, 155);
+}
+.btn{
+    color:rgb(0, 82, 155);
+    border-color:rgb(0, 82, 155);
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: rgb(0, 32, 78);
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+    </style>
+    <body>
+        <div class="mx-auto" style="width: 95%;">
+            <div class="row">
+                <div class="col-sm-11">
+                    <a href="../dhraccess.html" style="color: black;"><h1><</h1>
+                     </a>
+                </div>
+                <div class = "col-sm-1">
+            <div class="text text-right">
+                <div id="mySidenav" class="sidenav text text-center">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="../../index.html">Home</a>
+                    <a href="../../materials.html">Applications</a>
+                    <a href="../../instruments.html">Instruments</a>
+                    <a href="../../videos.html">Videos</a>
+                  </div>
+                  
+                  <!-- Use any element to open the sidenav -->
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+            </div>
+                </div>
+            </div>
+        <br><br>
+        <h1 style="font-size: 60px; font-weight: bold;">DRY ASPHALT ACCESSORY</h1>
+        <br><br><br><br>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img src = "../img/evf.PNG" style="width: 100%;">
+            </div>
+            <div class="col-sm-8">
+                <div class="row" id="my_styles">
+                    <span>  
+                       <button type="button" id="tabs1" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Description</button>&emsp;
+                        <button type="button" id="tabs4" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
+                        <button type="button" id="tabs6" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Applications</button>&emsp;
+                    </span>
+                </div>
+                <br><br><br>
+                <div id="tabs-1" class="tabContent mx-auto">
+                    <p> 
+                        The new Discovery series Dynamic Shear Rheometers (DSRs) for asphalt testing are the latest generation of rotational rheometers from TA Instruments. Combining the patented magnetic bearing design with the superior drag cup motor technology, the new Discovery Hybrid Rheometer (DHR) delivers exceptional performance in a rugged package. The DSR is powered by the user-friendly FastTrack software package, designed exclusively for ASTM and AASHTO compliant testing, that intuitively guides the operator for routine testing with minimal training. The DSR can be equipped with an extensive variety of modular configurations to accommodate the widest range of tests, from QC lab testing to advanced research and development. These include the convenient and responsive Dry Asphalt system, the Environmental Test Chamber (ETC), Peltier and Electrically heated concentric cylinders, and geometries for torsional and tribology testing. 
+                        <br>
+With its unique combination of state-of-the-art hardware and easy to use software, the Discovery series DSRs from TA Instruments offers a comprehensive package tailored specifically for the requirements of the asphalt community. Backed by TA Instruments, the world leader in thermal analysis and rheology instrumentation, the Discovery Hybrid Rheometer is fully accessorized and is capable of meeting and exceeding the requirements mandated by current and future ASTM and AASHTO standards. 
+
+                    </p>
+                </div>
+                <div id="tabs-4" class="tabContent mx-auto" style="display: none;">
+                    <ul>
+                        <li>Compliant with AASHTO T315, T350, M332, TP-101, TP-123, T316, ASTM D7175, D7405 </li>
+                        <li>Smart Swap™ technology </li>
+                        <li>Wide temperature ranges: </li>
+                        <ul>
+                            <li>Dry Asphalt system: -30 °C* to 150 °C </li>
+                            <li>Environmental Test Chamber (ETC): -160 °C to 600 °C </li>
+                            <li>Peltier concentric cylinder: -20 °C* to 150 °C </li>
+                        </ul>
+                        <li>Key features of dry asphalt system: </li>
+                        <ul>
+                            <li>Eliminates vertical temperature gradients </li>
+                            <li>Compatible with Peltier liquid cooling, circulator, or gas cooling options </li>
+                            <li>Patented heat spreader technology for optimum heat transfer </li>
+                            <li>Substantially reduces thermal equilibrium time </li>
+                        </ul>
+                        <li>Turnkey system for asphalt testing – includes the following: </li>
+                        <ul>
+                            <li>8 mm and 25 mm parallel plates </li>
+                            <li>Sample molds </li>
+                            <li>Sample trimming, plate removal tools, and environment cover (Dry asphalt system only) </li>
+                            <li>Optional 4 mm plates available </li>
+                        </ul>
+                        <li>Automated temperature calibration, guided by FastTrack software </li> 
+                    </ul>
+                    * With appropriate cooling device 
+                </div>
+
+                <div id="tabs-6" class="tabContent mx-auto" style="display: none;">
+                    The true test of any rheometer temperature control system is to compare sample response to the reported system temperature. This evaluation is especially important for a combined lower Peltier device with intimate contact heating and an upper non-contact heating device. In this situation, the top plate heats more slowly than the bottom plate. Because the top and bottom plates heat at different rates, the sample temperature differs greatly from the reported system temperature. In competitive systems, the sample response lags the temperature profile, requiring the user to determine system-based thermal equilibration times and program long delays. This issue is eliminated with TA’s unique UHP design, by continuously controlling and matching the upper and lower plate temperatures. This accurate response is demonstrated in the following figure with simple oscillation time sweep measurements. 
+                    <br><br>
+                    <img src="../img/daa1.png">
+                    <br><br>
+                    The figure shows a test performed on an Asphalt binder sample which, according to federal standards, cannot be tested until temperature is fully equilibrated to within 0.1 °C of the set-point. The data show that the complex viscosity response exactly follows the reported temperature profile, proving that there is no lag between set-point and real sample temperature – as soon as the temperature is within 0.1 °C, the viscosity of the asphalt binder is fully equilibrated and no change is seen in the viscosity even after 20 additional minutes. By matching upper and lower temperature and heating rates, TA provides the most advanced and accurate non-contact heating technology. 
+                    
+                </div>
+ 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+    
+        </div>
+        <div class="col-sm-1">
+            <br><br>
+            <img src="../../img/logo.PNG" style="width: 125px;">
+        </div>
+    </div></div>
+    </body>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "350px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        function showStuff(element)  {
+    var tabContents = document.getElementsByClassName('tabContent');
+    for (var i = 0; i < tabContents.length; i++) { 
+        tabContents[i].style.display = 'none';
+    }
+
+    // change tabsX into tabs-X in order to find the correct tab content
+    var tabContentIdToShow = element.id.replace(/(\d)/g, '-$1');
+    document.getElementById(tabContentIdToShow).style.display = 'block';
+}
+jQuery("#my_styles .btn").click(function(){
+        jQuery("#my_styles .btn").removeClass('active');
+        jQuery(this).toggleClass('active'); 
+});
+
+            </script>
+</html>

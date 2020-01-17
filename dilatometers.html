@@ -1,0 +1,410 @@
+<html>
+    <head>
+        <title>Dilatometers</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+    </head>
+    <style>
+    #html, body{
+        color: rgb(82, 82, 82);
+        font-family: 'Roboto';
+
+    }
+    a{
+        color:rgb(0, 32, 78);
+    }
+    a:hover{
+        color: rgb(0, 32, 78);
+
+    }
+    .container{
+        width: 100%;
+    }
+    .figure-caption{
+        color: rgb(0, 32, 78);
+        font-weight: bolder;
+    }
+        /* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: whitesmoke; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0, 32, 78);
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: rgb(0, 32, 78);
+}
+.carousel-item{
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+.card{
+  width: 100%;
+}
+    </style>
+    <body>
+      <div class="mx-auto" style="width: 95%;">
+        <div class="row" style="padding-top: 15px;">
+          <div class="col-sm-2">
+              <a href="instruments.html" style="color: black;">
+                  <img src="img/Arrow.png" style="width: 55px;">
+
+               </a>
+          </div>
+          <div class="col-sm-8">
+            <div class="text text-center">
+              <a href="index.html">
+              <img src="img/logo.PNG" style="width: 115px;">
+              </a>
+             </div>
+          </div>
+          <div class = "col-sm-2">
+      <div class="text text-right">
+          <div id="mySidenav" class="sidenav text text-center">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="index.html">Home</a>
+              <a href="materials.html">Applications</a>
+              <a href="instruments.html">Instruments</a>
+              <a href="videos.html">Videos</a>
+            </div>
+            
+            <!-- Use any element to open the sidenav -->
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+      </div>
+          </div>
+      </div>
+
+<div class="text text-center">
+  <br><br>
+  <h1 style="font-size: 60px; font-weight: bold; color:rgb(0, 82, 155);">DILATOMETERS</h1>
+  <br><BR>
+
+
+
+
+
+        <div class="row mx-auto my-auto">
+          <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+              <div class="carousel-inner w-100" role="listbox">
+                  <div class="carousel-item active">
+                      <div class="col-md-4">
+                        <div class="row">
+                          <div class="col-sm-2">
+
+                          </div>
+                          <div class="col-sm-8">
+                            <a href="dilatometers/dil831.html" style="text-decoration: none;"> 
+                                 <div class="card card-body" style="border-style: solid; border-color: white; border-radius: 25px; box-shadow: 0 0 15px rgb(201, 201, 201);">
+                            <img class="img-fluid" src="img/PNG/DIL 831.png">
+                              <figcaption class="figure-caption text-center"><h3><b><br>DIL 831<br><br></h3>&nbsp;</b></figcaption>
+                              </a>
+                          </div>
+                          </div>
+                        </div>
+
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col-md-4">
+                        <div class="row">
+                          <div class="col-sm-2">
+
+                          </div>
+                          <div class="col-sm-8">
+                         <a href="dilatometers/dil832.html" style="text-decoration: none;"> 
+                             <div class="card card-body" style="border-style: solid; border-color: white; border-radius: 25px; box-shadow: 0 0 15px rgb(201, 201, 201);">
+                            <img class="img-fluid" src="img/PNG/DIL 832.png">
+                              <figcaption class="figure-caption text-center"><h3><b><br>DIL 832<br><br></h3>&nbsp;</b></figcaption>
+                              </a>
+                          </div>                            
+                          </div>
+                        </div>
+
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col-md-4">
+                        <div class="row">
+                          <div class="col-sm-2">
+
+                          </div>
+                          <div class="col-sm-8">
+                          <a href="dilatometers/dil801.html" style="text-decoration: none;"> 
+                               <div class="card card-body" style="border-style: solid; border-color: white; border-radius: 25px; box-shadow: 0 0 15px rgb(201, 201, 201);">
+                          
+                            <img class="img-fluid" src="img/PNG/DIL 801.png">
+                              <figcaption class="figure-caption text-center"><h3><b><br>DIL 801<br><br></h3>&nbsp;</b></figcaption>
+                              </a>
+                          </div>                           
+                          </div>
+                        </div>
+
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col-md-4">
+                        <div class="row">
+                          <div class="col-sm-2">
+
+                          </div>
+                          <div class="col-sm-8">
+                         <a href="dilatometers/dil802.html" style="text-decoration: none;"> 
+                           <div class="card card-body" style="border-style: solid; border-color: white; border-radius: 25px; box-shadow: 0 0 15px rgb(201, 201, 201);">
+                        
+                          <img class="img-fluid" src="img/PNG/DIL 802.png">
+                            <figcaption class="figure-caption text-center"><h3><b><br>DIL 802<br><br></h3>&nbsp;</b></figcaption>
+                            </a>
+                        </div>                            
+                          </div>
+                        </div>
+
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col-md-4">
+                        <div class="row">
+                          <div class="col-sm-2">
+
+                          </div>
+                          <div class="col-sm-8">
+                             <a href="dilatometers/dil803.html" style="text-decoration: none;"> 
+                                 <div class="card card-body" style="border-style: solid; border-color: white; border-radius: 25px; box-shadow: 0 0 15px rgb(201, 201, 201);">
+                  
+                          <img class="img-fluid" src="img/PNG/DIL 803.png">
+                            <figcaption class="figure-caption text-center"><h3><b><br>DIL 803<br><br></h3>&nbsp;</b></figcaption>
+                            </a>
+                        </div>                            
+                          </div>
+                        </div>
+
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col-md-4">
+                        <div class="row">
+                          <div class="col-sm-2">
+
+                          </div>
+                          <div class="col-sm-8">
+                      <a href="dilatometers/dil820.html" style="text-decoration: none;"> 
+                          <div class="card card-body" style="border-style: solid; border-color: white; border-radius: 25px; box-shadow: 0 0 15px rgb(201, 201, 201);">
+                          
+                          <img class="img-fluid" src="img/PNG/DIL 820 Series Vertical Dilatometer.png">
+                            <figcaption class="figure-caption text-center"><h3><b><br>DIL 820 Series Vertical Dilatometer<br></h3>&nbsp;</b></figcaption>
+                            </a>
+                        </div>                            
+                          </div>
+                        </div>
+
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-md-4">
+                      <div class="row">
+                        <div class="col-sm-2">
+
+                        </div>
+                        <div class="col-sm-8">
+                        <a href="dilatometers/dil820ht.html" style="text-decoration: none;"> 
+                            <div class="card card-body" style="border-style: solid; border-color: white; border-radius: 25px; box-shadow: 0 0 15px rgb(201, 201, 201);">
+                    
+                        <img class="img-fluid" src="img/PNG/DIL 820 HT HiTemp Vertical Dilatometer.png">
+                          <figcaption class="figure-caption text-center"><h3><b><br>DIL 820 HT High Temp Vertical Dilatometers<br></h3>&nbsp;</b></figcaption>
+                          </a>
+                      </div>                          
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-4">
+                    <div class="row">
+                      <div class="col-sm-2">
+
+                      </div>
+                      <div class="col-sm-8">
+                      <a href="dilatometers/dil806optical.html" style="text-decoration: none;"> 
+                         <div class="card card-body" style="border-style: solid; border-color: white; border-radius: 25px; box-shadow: 0 0 15px rgb(201, 201, 201);">
+                    
+                      <img class="img-fluid" src="img/PNG/DIL 806 Optical Dilatometer.png">
+                        <figcaption class="figure-caption text-center"><h3><b><br>DIL 806 Optical Dilatometer<br></h3>&nbsp;</b></figcaption>
+                        </a>
+                    </div>                       
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="row">
+                    <div class="col-sm-2">
+
+                    </div>
+                    <div class="col-sm-8">
+                 <a href="dilatometers/odp868.html" style="text-decoration: none;"> 
+                    <div class="card card-body" style="border-style: solid; border-color: white; border-radius: 25px; box-shadow: 0 0 15px rgb(201, 201, 201);">
+                   
+                    <img class="img-fluid" src="img/PNG/ODP 868 Optical Dilatometer.png">
+                      <figcaption class="figure-caption text-center"><h3><b><br>ODP 868 Optical Dilatometer<br></h3>&nbsp;</b></figcaption>
+                      </a>
+                  </div>                      
+                    </div>
+                  </div>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-md-4">
+                <div class="row">
+                  <div class="col-sm-2">
+
+                  </div>
+                  <div class="col-sm-8">
+               <a href="dilatometers/hm867.html" style="text-decoration: none;"> 
+                  <div class="card card-body" style="border-style: solid; border-color: white; border-radius: 25px; box-shadow: 0 0 15px rgb(201, 201, 201);">
+                  
+                  <img class="img-fluid" src="img/PNG/HM 867 Heating Microscopev.png">
+                    <figcaption class="figure-caption text-center"><h3><b><br>HM 867 Heating Microscope<br></h3>&nbsp;</b></figcaption>
+                    </a>
+                </div>                   
+                  </div>
+                </div>
+
+              </div>
+          </div>
+              </div>
+              <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                <span  aria-hidden="true">                    
+                  <img src="img/Arrow.png" style="width: 55px;">
+              </span>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                <img src="img/Arrow copy.png" style="width: 55px;">
+                 <span class="sr-only">Next</span>
+             </a>
+          </div>
+      </div>
+
+
+
+        <br>
+ 
+
+
+</div>
+<br>
+
+
+</div>
+    </body>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "350px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        $('#recipeCarousel').carousel({
+  interval: 9000
+})
+
+$('.carousel .carousel-item').each(function(){
+    var minPerSlide = 3;
+    var next = $(this).next();
+    if (!next.length) {
+    next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+    
+    for (var i=0;i<minPerSlide;i++) {
+        next=next.next();
+        if (!next.length) {
+        	next = $(this).siblings(':first');
+      	}
+        
+        next.children(':first-child').clone().appendTo($(this));
+      }
+});
+            </script>
+</html>

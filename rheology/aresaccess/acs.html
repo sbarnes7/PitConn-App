@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Air Chiller System</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link href="../../bootstrap-4.4.1-dist/css/bootstrap.min.css" media="all" type="text/css" rel="stylesheet">
+<link href="../../bootstrap-4.4.1-dist/js/bootstrap.min.js" media="all" type="text/css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="../../instruments.css">
+    </head>
+  
+    <body>
+        <div class="mx-auto" style="width: 95%;">
+            <div class="row">
+                <div class="col-sm-11">
+                    <a href="../aresg2access.html" style="color: black;">
+                        <img src="../../img/Arrow.png" style="width: 45px;">
+                     </a>
+                </div>
+                <div class = "col-sm-1">
+            <div class="text text-right">
+                <div id="mySidenav" class="sidenav text text-center">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="../../index.html">Home</a>
+                    <a href="../../materials.html">Applications</a>
+                    <a href="../../instruments.html">Instruments</a>
+                    <a href="../../videos.html">Videos</a>
+                  </div>
+                  
+                  <!-- Use any element to open the sidenav -->
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+            </div>
+                </div>
+            </div>
+
+        <br><br>
+        <h1 style="font-size: 60px; font-weight: bold; color: rgb(0, 82, 155);">AIR CHILLER SYSTEM</h1>
+        <h2>Extreme sub-ambient temperature control to
+            -100 °C without liquid nitrogen.</h2>
+        <br><br>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img src = "img/ARES-G2_Air Chiller System (1).png" style="width: 80%;">
+            </div>
+            <div class="col-sm-8">
+                <div class="row" id="my_styles">
+                    <span>  
+                       <button type="button" id="tabs1" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Description</button>&emsp;
+                        <button type="button" id="tabs2" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
+                        <button type="button" id="tabs3" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Video</button>&emsp;
+                    </span>
+                </div>
+                <br><br><br>
+                <div id="tabs-1" class="tabContent">
+                    <p> The new Air Chiller System models offer a unique gas flow cooling systems that provide the capability for sub-ambient testing without the use of liquid nitrogen. Available in two models, the ACS-2 and ACS-3, the chillers feature a multi-stage cascading compressor design that is capable of utilizing compressed air (7 bar, 200 l/min) as the cooling medium. The ACS-2 and ACS-3 models permit operation of the FCO at temperatures as low as -55 °C and -100 °C respectively. The chiller systems can help eliminate or reduce liquid nitrogen usage and associated hazards from any laboratory and offers an incredible return on investment. 
+                          </p>
+                </div>
+                <div id="tabs-2" class="tabContent" style="display:none;">
+                    <p>
+                        <ul>
+                            <li>Great Return On Investment (ROI) – No recurring Liquid Nitrogen cost with estimated payback of 2 to 3 years* (depending on experiment requirements) </li>
+                            <li>Unlimited supply of Cooling Gas means you never run out during an experiment! </li>
+                            <li>No liquid nitrogen waste from idle tank boil off. </li>
+                            <li>Always ready to run sub-ambient tests. </li>
+                            <li>Eliminates safety concerns: </li>
+                            <li>No asphyxiant hazard from excessive nitrogen gas </li>
+                            <li>No moving heavy liquid Nitrogen tanks </li>
+                            <li>CFC Free </li>
+                            <li>Provides low temperature cooling to laboratories with limited or no access to LN2. </li>
+                            <li>Low noise durable compressors. </li>
+                            <li>Small footprint frees up lab space over liquid Nitrogen alternative. </li>
+                        </ul>
+                        * ROI calculation based on difference between initial capital outlay of equivalent LN2 option and estimated LN2 usage one 120 Liter tank per week at cost of $125 per tank. 
+
+                    </p>
+                </div>
+                <div id="tabs-3" class="tabContent " style="display:none;">
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/KQwBsOR-7Bw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </p>
+                </div>
+
+   </div>
+</div>
+    <div class="row">
+        <div class="col-sm-10">
+    
+        </div>
+        <div class="col-sm-1">
+            
+            <a href="../../index.html">
+                <img src="../../img/logo.PNG" style="width: 125px; padding-top: 15px; padding-bottom: 15px; padding-right: 15px;">
+            </a>        </div>
+    </div>
+    </div>
+    </body>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "350px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        function showStuff(element)  {
+    var tabContents = document.getElementsByClassName('tabContent');
+    for (var i = 0; i < tabContents.length; i++) { 
+        tabContents[i].style.display = 'none';
+    }
+
+    // change tabsX into tabs-X in order to find the correct tab content
+    var tabContentIdToShow = element.id.replace(/(\d)/g, '-$1');
+    document.getElementById(tabContentIdToShow).style.display = 'block';
+}
+jQuery("#my_styles .btn").click(function(){
+        jQuery("#my_styles .btn").removeClass('active');
+        jQuery(this).toggleClass('active'); 
+});
+
+            </script>
+</html>

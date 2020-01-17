@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>MV One</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link href="../bootstrap-4.4.1-dist/css/bootstrap.min.css" media="all" type="text/css" rel="stylesheet">
+<link href="../bootstrap-4.4.1-dist/js/bootstrap.min.js" media="all" type="text/css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="../instruments.css">
+
+    </head>
+
+    <body>
+        <div class="mx-auto" style="width: 95%; padding-top: 15px;">
+            <div class="row">
+                <div class="col-sm-11">
+                    <a href="../rti.html" style="color: black;">
+                        <img src="../img/Arrow.png" style="width: 45px;">
+                     </a>
+                </div>
+                <div class = "col-sm-1">
+            <div class="text text-right">
+                <div id="mySidenav" class="sidenav text text-center">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="../index.html">Home</a>
+                    <a href="../materials.html">Applications</a>
+                    <a href="../instruments.html">Instruments</a>
+                    <a href="../videos.html">Videos</a>
+                  </div>
+                  
+                  <!-- Use any element to open the sidenav -->
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+            </div>
+                </div>
+            </div>
+        <br><br>
+        <h1 style="font-size: 60px; font-weight: bold; color: rgb(0, 82, 155);">MV ONE</h1>
+        <h2>Mooney Viscometer incorporates the latest measurement technology for the traditional Mooney viscosity, Mooney scorch, and stress relaxation measurement in the rubber industry.
+              </h2>
+        <br><br>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img src = "../img/PNG/MV One.png" style="width: 80%;">
+            </div>
+            <div class="col-sm-8">
+                <div class="row" id="my_styles">
+                    <span>  
+                       <button type="button" id="tabs1" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Description</button>&emsp;
+                        <button type="button" id="tabs2" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
+                        <button type="button" id="tabs3" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Specifications</button>&emsp;
+                        <button type="button" id="tabs4" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Applications</button>&emsp;
+                    </span>
+                </div>
+                <br><br><br>
+                <div id="tabs-1" class="tabContent">
+                    <p> 
+                        The MV <i>one</i> Mooney Viscometer incorporates the latest measurement technology for the traditional Mooney viscosity, Mooney scorch, and stress relaxation measurement in the rubber industry. The MV one is a fully featured instrument configured for standard viscosity, scorch and stress relaxation (linear, logarithmic, ISO, Mooney Stress-relaxation Rate) testing of rubber compounds under isothermal test conditions at constant speed of 2 rpm. An optional continuously variable motor mode allows tests over a speed range of 0.1 to 10 rpm. The MV one Mooney Viscometer is equipped with low mass rotors that meet all relevant ASTM, ISO, and DIN standards. All TA Instruments rubber testing instruments are constructed on ultra-rigid test frames and include direct drive motors, precision temperature control and the powerful and intuitive Scarabaeus Control and Analysis Software. 
+                     </p>
+                </div>
+                <div id="tabs-2" class="tabContent" style="display:none;">
+                    <p><b>Features and Benefits:</b>
+                    <br>
+                        <ul>
+                            <li>Superior design for unmatched data precision and accuracy </li>
+                            <li>Extremely rigid test frame for accurate compliance-free data </li>
+                            <li>Low mass rotor design and direct heating for fast and accurate temperature control </li>
+                            <li>Available high resolution variable speed direct drive motor </li>
+                            <li>Automated internal torque calibration </li>
+                            <li>Long-life user-replaceable seals </li>
+                            <li>Powerful and Intuitive Scarabaeus Software available in multiple languages 
+                                Large (38.10 mm) and small (30.48 mm) diameter rotors Mooney viscosity, stress relaxation, scorch </li>
+                        </ul>
+                    </p>
+                </div>
+                <div id="tabs-3" class="tabContent" style="display: none;">
+                    <img src="../img/specTables/Rubber-MV One.png">
+                </div>
+                <div id="tabs-4" class="tabContent" style = "display: none;">
+                    Elastomers and Rubbers
+                </div>
+
+
+
+       </div></div>
+    <div class="row">
+        <div class="col-sm-10">
+    
+        </div>
+        <div class="col-sm-1">
+            
+            <a href="../index.html">
+                <img src="../img/logo.PNG" style="width: 125px; padding-top: 15px; padding-bottom: 15px; padding-right: 15px;">
+            </a>           </div>
+    </div></div>
+    </body>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "350px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        function showStuff(element)  {
+    var tabContents = document.getElementsByClassName('tabContent');
+    for (var i = 0; i < tabContents.length; i++) { 
+        tabContents[i].style.display = 'none';
+    }
+
+    // change tabsX into tabs-X in order to find the correct tab content
+    var tabContentIdToShow = element.id.replace(/(\d)/g, '-$1');
+    document.getElementById(tabContentIdToShow).style.display = 'block';
+}
+jQuery("#my_styles .btn").click(function(){
+        jQuery("#my_styles .btn").removeClass('active');
+        jQuery(this).toggleClass('active'); 
+});
+            </script>
+</html>

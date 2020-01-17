@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title>Viscometers</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link href="../bootstrap-4.4.1-dist/css/bootstrap.min.css" media="all" type="text/css" rel="stylesheet">
+<link href="../bootstrap-4.4.1-dist/js/bootstrap.min.js" media="all" type="text/css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="../instruments.css">
+
+    </head>
+
+    <body>
+        <div class="mx-auto" style="width: 95%; padding-top: 15px;">
+            <div class="row">
+                <div class="col-sm-11">
+                    <a href="../rheology.html" style="color: black;">
+                        <img src="../img/Arrow.png" style="width: 45px;">
+                     </a>
+                </div>
+                <div class = "col-sm-1">
+            <div class="text text-right">
+                <div id="mySidenav" class="sidenav text text-center">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="../index.html">Home</a>
+                    <a href="../materials.html">Applications</a>
+                    <a href="../instruments.html">Instruments</a>
+                    <a href="../videos.html">Videos</a>
+                  </div>
+                  
+                  <!-- Use any element to open the sidenav -->
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+            </div>
+                </div>
+            </div>
+
+        <br><br>
+        <h1 style="font-size: 60px; font-weight: bold; color:rgb(0, 82, 155);">Viscometers</h1>
+        <h2>Our Viscometers incorporate the latest measurment technology</h2>
+        <br><br><br><br>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img src = "../img/PNG/VIS 403.png" style="width: 80%;">
+            </div>
+            <div class="col-sm-8">
+                <div class="row" id="my_styles">
+                    <span>  
+                       <button type="button" id="tabs1" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Description</button>&emsp;
+                        <button type="button" id="tabs2" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
+                        <button type="button" id="tabs3" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Specifications</button>&emsp;
+                        <button type="button" id="tabs4" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Applications</button>&emsp;
+                    </span>
+                </div>
+                <br><br><br>
+                <div id="tabs-1" class="tabContent">
+                    <p>The high temperature viscometers VIS 403 and VIS 403HF measure the dynamic viscosity of materials with Newtonian behavior such as glasses, slags or mold powder. The instrument operates by measuring the shear stress and shear rate of a rotating bob immersed in a fluid filled cup under controlled temperature. Two different bob and cup configurations are available based on the viscosity of the test fluid. Tests may be conducted in controlled stress or controlled rate conditions, and under isothermal or temperature ramp programs. 
+                          </p>
+                </div>
+                <div id="tabs-2" class="tabContent" style="display:none;">
+                    <p><b>Features and Benefits:</b>
+                    <br>
+                    <ul>
+               <li>
+High Temperate Viscometer               </li>
+               <li>
+ 
+                Two temperature ranges: RT – 1500°C, 100°C -1700°C 
+                           </li>
+               <li>
+                Convenient, concentric cylinder measuring geometry                </li>
+               <li>
+                Ideal for glasses, slags, and mold powders                </li>
+              
+                    </ul>
+                
+                    </p>
+                </div>
+                <div id="tabs-3" class="tabContent" style="display: none;">
+                    <p> <img src="../img/specTables/Rheology-VIS 403.png" style="width: 100%;"></p>
+                </div>
+                <div id="tabs-4" class="tabContent" style = "display: none;">
+                    <p>
+                        Applications (Put relevant application note numbers under each category)                     </p>
+                </div>
+
+</div>
+</div>
+    <div class="row">
+        <div class="col-sm-10">
+    
+        </div>
+        <div class="col-sm-1">
+            
+            <a href="../index.html">
+                <img src="../img/logo.PNG" style="width: 125px; padding-bottom: 15px; padding-right: 15px;">
+            </a>          </div>
+    </div>
+    </div>
+    </body>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "350px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        function showStuff(element)  {
+    var tabContents = document.getElementsByClassName('tabContent');
+    for (var i = 0; i < tabContents.length; i++) { 
+        tabContents[i].style.display = 'none';
+    }
+
+    // change tabsX into tabs-X in order to find the correct tab content
+    var tabContentIdToShow = element.id.replace(/(\d)/g, '-$1');
+    document.getElementById(tabContentIdToShow).style.display = 'block';
+}
+jQuery("#my_styles .btn").click(function(){
+        jQuery("#my_styles .btn").removeClass('active');
+        jQuery(this).toggleClass('active'); 
+});
+
+            </script>
+</html>
