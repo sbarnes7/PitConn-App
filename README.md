@@ -7,14 +7,14 @@
  - [ ] Use new one note for applications left off at SDT 650
  - [ ] TAM IV48 video needed
  - [ ] Interfacial accessories images needed
- - [ ] MDR One video needed
- - [ ] 3D culture pro bio reactors specific packages content needed
- - [ ] Planar biaxial configurations needed
  - [ ] need images for 4 new efmti
- - [ ] DTC 300 video needed
  - [ ] DSC oil app needs table
- - [ ] Go back to applications and check for any starred ones with incomplete categories to update
+ - [ ] Go back to applications and check for any starred ones with incomplete categories to update (ones marked DONE have already been added)
  ## Fixed Bugs (1/20/2020)
+  - [x] DTC 300 video needed
+  - [x] Planar biaxial configurations needed
+  - [x] 3D culture pro bio reactors specific packages content needed
+  - [x] MDR One video needed
   - [x] Did not start on TGA updated apps yet
  - [x] Check to make sure original one note is in line with app
   - [x] Finish updating all dhr accessory pages
