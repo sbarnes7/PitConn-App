@@ -7,7 +7,7 @@
  - [ ] Use new one note for applications
  - [ ] TAM IV48 video needed
  - [ ] Interfacial accessories images needed
- - [ ]MDR One video needed
+ - [ ] MDR One video needed
   - [ ] 3D culture pro bio reactors specific packages content needed
   - [ ] Planar biaxial configurations needed
   - [ ] need images for 4 new efmti
