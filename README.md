@@ -1,10 +1,12 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Bugs
- - [ ] Need images for dhr accessories
- - [ ] Get Acquity Q5000 image
- - [ ] TAM IV48 video needed
- - [ ] DSC oil app needs table
+ - [ ] Decide how to incorporate pharamceuticals as a application group
+ - [ ] Pharma as a side menu button once decided it will be added
+ - [ ] Need images for dhr accessories (waiting from people)
+ - [ ] Get Acquity Q5000 image (waiting from people)
+ - [ ] TAM IV48 video needed (need to make decision on whether or not to add it)
+ - [ ] DSC oil app needs table (waiting for approval)
  - [ ] Go back to applications and check for any starred ones with incomplete categories to update (ones marked DONE have already been added)
  ## Fixed Bugs (1/20/2020)
   - [x] Get square images for Ares accessories
