@@ -2,15 +2,14 @@
  TA Instruments PitConn App
  ## Current Bugs
  - [ ] Need images for dhr accessories
- - [ ] Get square images for Ares accessories
  - [ ] Get Acquity Q5000 image
- - [ ] Use new one note for applications left off at SDT 650
  - [ ] TAM IV48 video needed
- - [ ] Interfacial accessories images needed
- - [ ] need images for 4 new efmti
  - [ ] DSC oil app needs table
  - [ ] Go back to applications and check for any starred ones with incomplete categories to update (ones marked DONE have already been added)
  ## Fixed Bugs (1/20/2020)
+  - [x] Get square images for Ares accessories
+  - [x] Interfacial accessories images needed
+  - [x] need images for 4 new efmti
   - [x] DTC 300 video needed
   - [x] Planar biaxial configurations needed
   - [x] 3D culture pro bio reactors specific packages content needed
