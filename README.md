@@ -5,8 +5,15 @@
  - [ ] Get square images for Ares accessories
  - [ ] Get Acquity Q5000 image
  - [ ] Use new one note for applications
- - [ ] Multicell DSC, DIL 801, 802, 803, 868, tuber 100, fox 1000, fox 600ghp, fox 801, fox 600,  fox 314, fox 200, has no features & benefits
-- [ ] Tuber 100, electroforce 3100, 3200, 3500,  5500, 3d culture pro,  missing specifications
+ - [ ] TAM IV48 video needed
+ - [ ] Interfacial accessories images needed
+ - [ ]MDR One video needed
+  - [ ] 3D culture pro bio reactors specific packages content needed
+  - [ ] Planar biaxial configurations needed
+  - [ ] need images for 4 new efmti
+  - [ ] DTC 300 video needed
+- [ ] DSC oil app needs table
+- [ ] Did not start on TGA updated apps yet
  ## Fixed Bugs (1/17/2020)
  - [x] Check to make sure original one note is in line with app
   - [x] Finish updating all dhr accessory pages
