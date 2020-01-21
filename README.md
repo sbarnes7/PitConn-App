@@ -9,18 +9,18 @@
  - [ ] DSC oil app needs table (waiting for approval)
  - [ ] Go back to applications and check for any starred ones with incomplete categories to update (ones marked DONE have already been added)
  ## Fixed Bugs (1/21/2020)
-  - [x] Logo Size on indoividual pages still vary
-  - [x] Add HP TGA Graphs and data to instrument and applications page
-  - [x] Get square images for Ares accessories
-  - [x] Interfacial accessories images needed
-  - [x] need images for 4 new efmti
-  - [x] DTC 300 video needed
-  - [x] Planar biaxial configurations needed
-  - [x] 3D culture pro bio reactors specific packages content needed
-  - [x] MDR One video needed
-  - [x] Did not start on TGA updated apps yet
+ - [x] Logo Size on indoividual pages still vary
+ - [x] Add HP TGA Graphs and data to instrument and applications page
+ - [x] Get square images for Ares accessories
+ - [x] Interfacial accessories images needed
+ - [x] need images for 4 new efmti
+ - [x] DTC 300 video needed
+ - [x] Planar biaxial configurations needed
+ - [x] 3D culture pro bio reactors specific packages content needed
+ - [x] MDR One video needed
+ - [x] Did not start on TGA updated apps yet
  - [x] Check to make sure original one note is in line with app
-  - [x] Finish updating all dhr accessory pages
+ - [x] Finish updating all dhr accessory pages
  - [x] Only instrument videos in video library
  - [x] How to make full screen
  - [x] Style the scroll bar
