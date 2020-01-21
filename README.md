@@ -1,6 +1,7 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Bugs
+ - [ ] Make instrument logos identical to materials side logos
  - [ ] Decide how to incorporate pharamceuticals as a application group
  - [ ] Pharma as a side menu button once decided it will be added
  - [ ] Need images for dhr accessories (waiting from people)

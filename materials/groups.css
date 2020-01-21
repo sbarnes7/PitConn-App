@@ -3,7 +3,11 @@
     font-family: 'Roboto';
 
 }
-
+.fix{
+    position:fixed;
+    bottom:0px;
+    right:3%;
+}
 .jumbotron{
     height: 250px;
 }

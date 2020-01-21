@@ -13,7 +13,12 @@ color: rgb(0, 32, 78);
 display: block;
 transition: 0.3s;
 }
-
+.fix{
+    position:fixed;
+    bottom:0px;
+    right:3%;
+    padding-bottom: 25px;
+}
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
 color: rgb(0, 32, 78);
