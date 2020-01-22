@@ -9,6 +9,7 @@
  - [ ] DSC oil app needs table (waiting for approval)
  - [ ] Go back to applications and check for any starred ones with incomplete categories to update (ones marked DONE have already been added)
  ## Fixed Bugs (1/21/2020)
+ - [x] Make arrows uniform throughout the site 
  - [X] Make instrument logos identical to materials side logos
  - [x] Logo Size on indoividual pages still vary
  - [x] Add HP TGA Graphs and data to instrument and applications page
