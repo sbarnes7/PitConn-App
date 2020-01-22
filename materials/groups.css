@@ -3,6 +3,9 @@
     font-family: 'Roboto';
 
 }
+span{
+    color: rgb(0, 82, 155);
+}
 .fix{
     position:fixed;
     bottom:0px;
