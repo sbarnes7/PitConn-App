@@ -2,7 +2,6 @@
  TA Instruments PitConn App
  ## Current Bugs
  - [ ] Finish Thermal Analysis Applications (DMA & HPTGA)
-
  - [ ] Decide how to incorporate pharamceuticals as a application group
  - [ ] Pharma as a side menu button once decided it will be added
  - [ ] Need images for dhr accessories (waiting from people)
