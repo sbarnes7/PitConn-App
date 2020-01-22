@@ -16,7 +16,12 @@
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
- 
+.fix{
+    position:fixed;
+    bottom:0px;
+    right:3%;
+    padding-bottom: 25px;
+}
 /* Handle */
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;

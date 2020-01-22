@@ -1,7 +1,6 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Bugs
- - [ ] Make instrument logos identical to materials side logos
  - [ ] Decide how to incorporate pharamceuticals as a application group
  - [ ] Pharma as a side menu button once decided it will be added
  - [ ] Need images for dhr accessories (waiting from people)
@@ -10,6 +9,7 @@
  - [ ] DSC oil app needs table (waiting for approval)
  - [ ] Go back to applications and check for any starred ones with incomplete categories to update (ones marked DONE have already been added)
  ## Fixed Bugs (1/21/2020)
+ - [X] Make instrument logos identical to materials side logos
  - [x] Logo Size on indoividual pages still vary
  - [x] Add HP TGA Graphs and data to instrument and applications page
  - [x] Get square images for Ares accessories
