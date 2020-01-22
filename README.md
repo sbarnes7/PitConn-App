@@ -7,9 +7,9 @@
  - [ ] Need images for dhr accessories (waiting from people)
  - [ ] Get Acquity Q5000 image (waiting from people)
  - [ ] TAM IV48 video needed (need to make decision on whether or not to add it)
- - [ ] DSC oil app needs table (waiting for approval)
- - [ ] Go back to applications and check for any starred ones with incomplete categories to update (ones marked DONE have already been added)
  ## Fixed Bugs (1/21/2020)
+ - [x] DSC oil app needs table (waiting for approval)
+ - [x] Go back to applications and check for any starred ones with incomplete categories to update (ones marked DONE have already been added)
  - [x] Add graphs to thermal analysis applications
  - [x] Check for any updated application wordings
  - [x] Make arrows uniform throughout the site 
