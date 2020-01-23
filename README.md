@@ -1,6 +1,9 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Bugs
+ - [ ] Side menu hambruger should be pushed right on videos side
+ - [ ] Give materials side menu extra space between buttons??
+ - [ ] Side menu burger jumps on materials side
  - [ ] Finish Thermal Analysis Applications (DMA & HPTGA)
  - [ ] Decide how to incorporate pharamceuticals as a application group
  - [ ] Pharma as a side menu button once decided it will be added
