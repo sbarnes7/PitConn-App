@@ -1,13 +1,14 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
- - [ ] Finish Thermal Analysis Applications (DMA & HPTGA)
+ - [ ] Finish Thermal Analysis Applications (HPTGA)
  - [ ] Decide how to incorporate pharamceuticals as a application group
  - [ ] Pharma as a side menu button once decided it will be added
  - [ ] Need images for dhr accessories (waiting from people)
  - [ ] Get Acquity Q5000 image (waiting from people)
  - [ ] TAM IV48 video needed (need to make decision on whether or not to add it)
  ## Resolved Issues(1/23/2020)
+ - [x] Update the DMA applications below the line
  - [x] Side menu hambruger should be pushed right on videos side
  - [x] Give materials side menu extra space between buttons??
  - [x] Side menu burger jumps on materials side
