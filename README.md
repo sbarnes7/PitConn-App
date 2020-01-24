@@ -4,7 +4,6 @@
  - [ ] Increase padding between videos in video library
  - [ ] Logo and hamburger have added padding to top
  - [ ] Materials buttons side bar should be padded off the left side
- - [ ] Change blue hambruger color to same gray as arrow
  - [ ] All videos should be files not youtube links
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
  - [ ] Check for bugs without internet
@@ -13,6 +12,7 @@
  - [ ] Need images for dhr accessories (waiting from people)
  - [ ] Get Acquity Q5000 image (waiting from people)
  ## Resolved Issues(1/24/2020)
+ - [x] Change blue hambruger color to same gray as arrow
  - [x] Replace fine chemicals with food
  - [x] All materials should be listed in alphabetical order
  - [x] Decide how to incorporate pharamceuticals as a application group
