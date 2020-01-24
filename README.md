@@ -6,6 +6,7 @@
  - [ ] Remove fundamental research and add food or Pharma
  - [ ] Incorporate an inactivity video
  - [ ] Check for bugs without internet
+ ## 
  - [ ] Figure out if logo will be changing to TA and waters
  - [ ] Finish Thermal Analysis Applications (HPTGA)
  - [ ] Decide how to incorporate pharamceuticals as a application group
