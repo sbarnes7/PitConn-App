@@ -5,7 +5,6 @@
  - [ ] Logo and hamburger have added padding to top
  - [ ] Materials buttons side bar should be padded off the left side
  - [ ] Change blue hambruger color to same gray as arrow
-
  - [ ] All videos should be files not youtube links
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
  - [ ] Check for bugs without internet
