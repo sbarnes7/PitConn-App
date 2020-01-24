@@ -5,19 +5,20 @@
  - [ ] Logo and hamburger have added padding to top
  - [ ] Materials buttons side bar should be padded off the left side
  - [ ] Change blue hambruger color to same gray as arrow
- - [ ] Replace fine chemicals with food
- - [ ] All materials should be listed in alphabetical order
+
  - [ ] All videos should be files not youtube links
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
  - [ ] Check for bugs without internet
  ## 
  - [ ] Figure out if logo will be changing to TA and waters
- - [ ] Finish Thermal Analysis Applications (HPTGA)
- - [ ] Decide how to incorporate pharamceuticals as a application group
- - [ ] Pharma as a side menu button once decided it will be added
  - [ ] Need images for dhr accessories (waiting from people)
  - [ ] Get Acquity Q5000 image (waiting from people)
- ## Resolved Issues(1/23/2020)
+ ## Resolved Issues(1/24/2020)
+ - [x] Replace fine chemicals with food
+ - [x] All materials should be listed in alphabetical order
+ - [x] Decide how to incorporate pharamceuticals as a application group
+ - [x] Pharma as a side menu button once decided it will be added
+ - [x] Finish Thermal Analysis Applications (HPTGA)
  - [x] Roboto font and bootstrap needs to be referenced locally not through web
  - [x] Remove fundamental research and add food or Pharma
  - [x] Add the video to the TAM IV 48 page
