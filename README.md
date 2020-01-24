@@ -1,9 +1,14 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
+ - [ ] Increase padding between videos in video library
+ - [ ] Logo and hamburger have added padding to top
+ - [ ] Materials buttons side bar should be padded off the left side
+ - [ ] Change blue hambruger color to same gray as arrow
+ - [ ] Replace fine chemicals with food
+ - [ ] All materials should be listed in alphabetical order
  - [ ] All videos should be files not youtube links
- - [ ] Roboto font and bootstrap needs to be referenced locally not through web
- - [ ] Incorporate an inactivity video
+ - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
  - [ ] Check for bugs without internet
  ## 
  - [ ] Figure out if logo will be changing to TA and waters
@@ -13,6 +18,7 @@
  - [ ] Need images for dhr accessories (waiting from people)
  - [ ] Get Acquity Q5000 image (waiting from people)
  ## Resolved Issues(1/23/2020)
+ - [x] Roboto font and bootstrap needs to be referenced locally not through web
  - [x] Remove fundamental research and add food or Pharma
  - [x] Add the video to the TAM IV 48 page
  - [x] TAM IV48 video needed (need to make decision on whether or not to add it)
