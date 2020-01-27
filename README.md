@@ -1,14 +1,15 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
+ - [ ] Get the rest of the video categories and update on the app (Thermal Analysis Videos Done)
  - [ ] Increase padding between videos in video library
- - [ ] All videos should be files not youtube links
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
  ## 
  - [ ] Figure out if logo will be changing to TA and waters
  - [ ] Need images for dhr accessories (waiting from people)
  - [ ] Get Acquity Q5000 image (waiting from people)
  ## Resolved Issues(1/24/2020)
+ - [x] All videos should be files not youtube links
  - [x] Logo and hamburger have added padding to top
  - [x] Materials buttons side bar should be padded off the left side
  - [x] Check for bugs without internet
