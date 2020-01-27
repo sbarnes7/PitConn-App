@@ -3,6 +3,7 @@
  ## Current Things to Address
  - [ ] Get the rest of the video categories and update on the app (Thermal Analysis Videos Done)
  - [ ] Increase padding between videos in video library
+ - [ ] Go through all video pages and make sure all are the updated videos and have poster attributes
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
  ## 
  - [ ] Figure out if logo will be changing to TA and waters
