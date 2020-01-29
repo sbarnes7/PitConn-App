@@ -5,6 +5,7 @@
  - [ ] Go through all video pages and make sure all are the updated videos and have poster attributes
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
  ## 
+ - [ ] Cosmetics and extractables last two categories without any applications
  - [ ] Figure out if logo will be changing to TA and waters
  - [ ] Need images for dhr accessories (waiting from people)
  - [ ] Get Acquity Q5000 image (waiting from people)
