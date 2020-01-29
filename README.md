@@ -1,9 +1,9 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
- - [ ] Remove sub headings from all ares accessories
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
  ## 
+ - [ ] Get rest of applications from product managers (rheology, dilatometry, mechanical testing, thermal conductivity, flash diffusivity)
  - [ ] Get the new wording for products whose sub headings are too long
  - [ ] Get new DHR video and put it on DHR page as well as vidoe library pages
  - [ ] Cosmetics and extractables last two categories without any applications
@@ -11,6 +11,7 @@
  - [ ] Need images for dhr accessories (waiting from people)
  - [ ] Get Acquity Q5000 image (waiting from people)
  ## Resolved Issues(1/29/2020)
+ - [x] Remove sub headings from all ares accessories
  - [x] Make spacing on side navs same as materials page for all apps
  - [x] Finish all videos throughout site
  - [x] Get the rest of the video categories and update on the app (Thermal Analysis Videos Done)
