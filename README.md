@@ -1,6 +1,7 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
+ - [ ] Finish the DIL applications, one tab is done still got the rest to do
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
  ## 
  - [ ] Get rest of applications from product managers (rheology, dilatometry, mechanical testing, thermal conductivity, flash diffusivity)
