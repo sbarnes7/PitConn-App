@@ -2,12 +2,9 @@
  TA Instruments PitConn App
  ## Current Things to Address
  - [ ] DXF 500 DMA app doesnt have category
- - [ ] rE ORDER SIDE MANUS AFETR ADDING BUILDING MATERIALS
  - [ ] Need building materials image
  - [ ] Replace all building materials place holder images
  - [ ] Metals- thermal expansion of thin films image needed for dil 806
- - [ ] Have tcm and FDA apps to do
- - [ ] replace extractables with one mentioned in the email
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
  ## 
  - [ ] Get rest of applications from product managers (rheology, mechanical testing)
@@ -18,6 +15,9 @@
  - [ ] Need images for dhr accessories (waiting from people)
  - [ ] Get Acquity Q5000 image (waiting from people)
  ## Resolved Issues(2/6/2020)
+ - [x] replace extractables with one mentioned in the email
+ - [x] rE ORDER SIDE MANUS AFETR ADDING BUILDING MATERIALS
+ - [x] Have tcm and FDA apps to do
  - [x] Finish the DIL applications, one tab is done still got the rest to do
  - [x] Remove sub headings from all ares accessories
  - [x] Make spacing on side navs same as materials page for all apps
