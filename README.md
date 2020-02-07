@@ -1,20 +1,21 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
+ - [ ] Check dhr accessories imageds with orange at top are wrong images
  - [ ] DXF 500 DMA app doesnt have category
- - [ ] Need building materials image
- - [ ] Replace all building materials place holder images
  - [ ] Metals- thermal expansion of thin films image needed for dil 806
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
  ## 
  - [ ] Get rest of applications from product managers (rheology, mechanical testing)
  - [ ] Get the new wording for products whose sub headings are too long
  - [ ] Get new DHR video and put it on DHR page as well as vidoe library pages
- - [ ] Cosmetics and extractables last two categories without any applications
- - [ ] Figure out if logo will be changing to TA and waters
- - [ ] Need images for dhr accessories (waiting from people)
+ - [ ] Cosmetics last categories without any applications
  - [ ] Get Acquity Q5000 image (waiting from people)
  ## Resolved Issues(2/6/2020)
+ - [x] Need images for dhr accessories (waiting from people)
+ - [x] Figure out if logo will be changing to TA and waters
+ - [x] Need building materials image
+ - [x] Replace all building materials place holder images
  - [x] replace extractables with one mentioned in the email
  - [x] rE ORDER SIDE MANUS AFETR ADDING BUILDING MATERIALS
  - [x] Have tcm and FDA apps to do
