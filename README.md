@@ -1,8 +1,6 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
- - [ ] Check dhr accessories imageds with orange at top are wrong images
- - [ ] DXF 500 DMA app doesnt have category
  - [ ] Metals- thermal expansion of thin films image needed for dil 806
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
  ## 
@@ -12,6 +10,8 @@
  - [ ] Cosmetics last categories without any applications
  - [ ] Get Acquity Q5000 image (waiting from people)
  ## Resolved Issues(2/6/2020)
+ - [x] Check dhr accessories imageds with orange at top are wrong images
+ - [x] DXF 500 DMA app doesnt have category 
  - [x] Need images for dhr accessories (waiting from people)
  - [x] Figure out if logo will be changing to TA and waters
  - [x] Need building materials image
