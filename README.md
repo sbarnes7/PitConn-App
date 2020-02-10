@@ -8,8 +8,8 @@
  - [ ] Get the new wording for products whose sub headings are too long
  - [ ] Get new DHR video and put it on DHR page as well as vidoe library pages
  - [ ] Cosmetics last categories without any applications
- - [ ] Get Acquity Q5000 image (waiting from people)
- ## Resolved Issues(2/6/2020)
+ ## Resolved Issues(2/10/2020)
+ - [x] Get Acquity Q5000 image (waiting from people)
  - [x] Check dhr accessories imageds with orange at top are wrong images
  - [x] DXF 500 DMA app doesnt have category 
  - [x] Need images for dhr accessories (waiting from people)
