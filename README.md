@@ -2,6 +2,7 @@
  TA Instruments PitConn App
  ## Current Things to Address
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
+ - [ ] Get actual video for the inacitivity
  ## 
  - [ ] Get rest of applications from product managers (rheology, mechanical testing)
  - [ ] Get the new wording for products whose sub headings are too long
