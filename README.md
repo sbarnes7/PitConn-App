@@ -1,7 +1,6 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
- - [ ] Metals- thermal expansion of thin films image needed for dil 806
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
  ## 
  - [ ] Get rest of applications from product managers (rheology, mechanical testing)
@@ -9,6 +8,7 @@
  - [ ] Get new DHR video and put it on DHR page as well as vidoe library pages
  - [ ] Cosmetics last categories without any applications
  ## Resolved Issues(2/10/2020)
+ - [x] Metals- thermal expansion of thin films image needed for dil 806
  - [x] Get Acquity Q5000 image (waiting from people)
  - [x] Check dhr accessories imageds with orange at top are wrong images
  - [x] DXF 500 DMA app doesnt have category 
