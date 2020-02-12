@@ -9,12 +9,14 @@
         <link href="../robot.css" rel="stylesheet">
         <script src="../popper.js"></script>
         <link rel="stylesheet" href="groups.css">
+        <script src="responsive.js"></script>
+
     </head>
 
     <body>
         <div class="mx-auto">
             <div class="row mx-auto" height="100%" width="100%" style="padding-top: 0px;">
-                <div class="col-sm-2" style="border-style: solid; border-color: white;  box-shadow: 0 0 15px rgb(201, 201, 201); height: 100vh;">
+                <div class="col-sm-2" id="bgside" style="border-style: solid; border-color: white;  box-shadow: 0 0 15px rgb(201, 201, 201); height: 100vh;">
                     
                     <a href="../materials.html">
                     <img src="../img/Arrow.png" style="width: 55px;">
@@ -23,7 +25,7 @@
                         
                         <br>
                     </div>
-                    <div class="text text-center">
+                    <div class="text text-center" id="sidebuttons">
                         <a type="button" id="tabs1" href="adhesives.html" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Adhesives & Sealants</a><br><br>
                         <a type="button" id="tabs2" href="agrochemicals.html" onClick="showStuff(this)"  style="background-color:rgb(0, 82, 155); color: white;" class="btn btn-outline-primary badge-pill">Agrochemicals</a><br><br>
                         <a type="button" id="tabs1" href="extractables.html" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Building Materials</a><br><br>

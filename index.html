@@ -10,7 +10,28 @@
         
     </head>
     <style>
-
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0, 82, 155,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0, 82, 155,0.4); 
+}
     #html, body{
         color: rgb(0, 32, 78);
         font-family: 'Roboto';
@@ -83,6 +104,18 @@
           </div>
     </body>
     <script>
+
+console.log(screen.height);
+var scheight = screen.height;
+if(scheight > 1000){
+
+}
+else{
+  
+}
+
+
+
     var myModule = angular.module('myApp', []);
 myModule.controller("TextController", function($scope, $interval, $document, $timeout) {
 
@@ -118,11 +151,11 @@ myModule.controller("TextController", function($scope, $interval, $document, $ti
   //intervalTime - the value is in milliseconds, the functionName is continuously repeated for this time.
   //timeoutValue - the value is in milliseconds, when this value is exceeded the function given in functionName is stopped
 
-  monitorTimeout($scope.pause, 1000, 20000);
+  monitorTimeout($scope.pause, 1000, 300000);
 
   function monitorTimeout(functionName, intervalTime, timeoutValue) {
     //initialization parameters
-    timeoutValue = timeoutValue || 20000;
+    timeoutValue = timeoutValue || 300000;
     intervalTime = intervalTime || 1000;
     // Start a timeout
     var TimeOut_Thread = $timeout(function() {

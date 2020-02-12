@@ -1,8 +1,7 @@
 #html, body{
     color: rgb(82, 82, 82);
     font-family: 'Roboto';
-    height: 100vh;
-    padding-top: 15px;
+    height: 100%;
 }
 
 /* Let's get this party started */
@@ -18,7 +17,6 @@
 }
 .fix{
     position:fixed;
-    bottom:0px;
     right:3%;
     padding-bottom: 25px;
 }
@@ -33,11 +31,6 @@
 	background: rgba(0, 82, 155,0.4); 
 }
 
-
-.tabContent{
-height: 400px;
-overflow: auto;
-}
 .container{
     width: 100%;
 }

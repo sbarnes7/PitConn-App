@@ -37,8 +37,7 @@ margin-left: 50px;
 }
 .tabContent{
     height: 400px;
-    overflow: auto;
-    }
+}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 650px) {

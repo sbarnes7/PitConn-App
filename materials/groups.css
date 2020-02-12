@@ -1,15 +1,13 @@
 #html, body{
     color: rgb(82, 82, 82);
     font-family: 'Roboto';
-
 }
 span{
     color: #646465;
 }
 .fix{
-    position:fixed;
-    bottom:0px;
     right:3%;
+    position: fixed;
 }
 .jumbotron{
     height: 250px;
@@ -81,7 +79,6 @@ margin-left: 50px;
 }
 #vids{
     height: 650px;
-    overflow: auto;
 }
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
@@ -104,11 +101,12 @@ color: white;
 .btn{
 color:rgb(0, 82, 155);
 border-color:rgb(0, 82, 155);
-width: 280px;
+width: 100%;
 }
 a{
 color: rgb(0, 32, 78);
 }
 .card{
-width: 250px;
+width: 80%;
+height: 380px;
 }

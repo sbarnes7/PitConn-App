@@ -1,6 +1,8 @@
 <html>
     <head>
         <title>Video Library</title>
+        <script src="../jquery/jquery-3.4.1.slim.js"></script>
+        <script src="../materials/responsive.js"></script>
         <link href="../bootstrap-4.4.1-dist/css/bootstrap.css" media="all" type="text/css" rel="stylesheet">
         <script type="text/javascript" src="../bootstrap-4.4.1-dist/js/bootstrap.js"></script>
         <link rel="icon" href="../img/logo.png">
@@ -12,7 +14,7 @@
     <body>
         <div class="mx-auto">
             <div class="row mx-auto" height="100%" width="100%" style="padding-top: 0px;">
-                <div class="col-sm-2" style="border-style: solid; border-color: white;  box-shadow: 0 0 15px rgb(201, 201, 201); height: 100vh;">
+                <div class="col-sm-2" id="bgside" style="border-style: solid; border-color: white;  box-shadow: 0 0 15px rgb(201, 201, 201); height: 100vh;">
                     <br>
                     <a href="../index.html">
                     <img src="../img/Arrow.png" style="width: 45px;">
@@ -21,7 +23,7 @@
                         <br>
               
                     </div>
-                    <div class="text text-center">
+                    <div class="text text-center" id="sidebuttons">
                         <a type="button" id="tabs1" href="../videos.html" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">All</a><br><br><br>
                         <a type="button" id="tabs2" href="thermalanalysisvids.html" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Thermal Analysis</a><br><br><br>
                         <a type="button" id="tabs3"  href="rheologyvids.html" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill btn-active">Rheology</a><br><br><br>
