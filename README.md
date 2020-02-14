@@ -1,6 +1,23 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
+  - [ ]Edit sub headings fro,m stephs email
+  - [ ] HR accessories -> hybrid rheometer accessories
+  - [ ] remove mechanical fatigue testing page from rti
+  - [ ] DMA -> DMA 850 (replace dynamic mechanical analyzers)
+  - [ ] Affinity ITc not spelt out
+  - [ ] remove the tam 4-48 page and keep tam 4 page
+  - [ ] tam 4 desc4ription one paragraph, fix on website too
+  - [ ] HM 867 spec table needs adjusted in size
+  - [ ] Fox 600 GHP use description off the website
+  - [ ] DXF 900 and DXF 500 use same tag line from steph
+  - [ ] bio 5200 delete everything after bioreactors
+  - [ ] multi specimen fatigue cut off after studios (accelerating -> accelerated)
+  - [ ] planar biaxial, start at characterizing and change to characterization 
+  - [ ] stent graft testers - > Durapuls TM SGT
+  - [ ] peripheral stent -> multi-axis peripheral stent
+  - [ ] fix above on the tile too
+  - [ ] elite, flex, and one all lower case and italics
  - [ ] Change gas and energetic materials to oil gas and energetic materials
  - [ ] Paints inks and coatings to lliquids paints andcoatings
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
