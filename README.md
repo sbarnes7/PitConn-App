@@ -1,6 +1,8 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
+ - [ ] Change gas and energetic materials to oil gas and energetic materials
+ - [ ] Paints inks and coatings to lliquids paints andcoatings
  - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
  - [ ] Get actual video for the inacitivity
  ## 
