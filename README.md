@@ -1,33 +1,34 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
-  - [ ]Edit sub headings fro,m stephs email
-  - [ ] HR accessories -> hybrid rheometer accessories
-  - [ ] remove mechanical fatigue testing page from rti
-  - [ ] DMA -> DMA 850 (replace dynamic mechanical analyzers)
-  - [ ] Affinity ITc not spelt out
-  - [ ] remove the tam 4-48 page and keep tam 4 page
-  - [ ] tam 4 desc4ription one paragraph, fix on website too
-  - [ ] HM 867 spec table needs adjusted in size
-  - [ ] Fox 600 GHP use description off the website
-  - [ ] DXF 900 and DXF 500 use same tag line from steph
-  - [ ] bio 5200 delete everything after bioreactors
-  - [ ] multi specimen fatigue cut off after studios (accelerating -> accelerated)
-  - [ ] planar biaxial, start at characterizing and change to characterization 
-  - [ ] stent graft testers - > Durapuls TM SGT
-  - [ ] peripheral stent -> multi-axis peripheral stent
-  - [ ] fix above on the tile too
-  - [ ] elite, flex, and one all lower case and italics
+ - [ ] Finish the rheology applications, remove dhr ones from materials side 
  - [ ] Change gas and energetic materials to oil gas and energetic materials
  - [ ] Paints inks and coatings to lliquids paints andcoatings
- - [x] Incorporate an inactivity video (figure out whether or not to implement throughout the app)
- - [ ] Get actual video for the inacitivity
+ - [x] Incorporate an inactivity video (implement throughout the app, use placeholder for now with a name that will work)
  ## 
- - [ ] Get rest of applications from product managers (rheology, mechanical testing)
- - [ ] Get the new wording for products whose sub headings are too long
+ - [ ] Get actual video for the inacitivity
+ - [ ] Get rest of applications from product managers (mechanical testing)
  - [ ] Get new DHR video and put it on DHR page as well as vidoe library pages
- - [ ] Cosmetics last categories without any applications
  ## Resolved Issues(2/10/2020)
+ - [x] Cosmetics last categories without any applications
+ - [x] Get the new wording for products whose sub headings are too long
+  - [x]Edit sub headings fro,m stephs email
+  - [x] HR accessories -> hybrid rheometer accessories
+  - [x] remove mechanical fatigue testing page from rti
+  - [x] DMA -> DMA 850 (replace dynamic mechanical analyzers)
+  - [x] Affinity ITc not spelt out
+  - [x] remove the tam 4-48 page and keep tam 4 page
+  - [x] tam 4 desc4ription one paragraph, fix on website too
+  - [x] HM 867 spec table needs adjusted in size
+  - [x] Fox 600 GHP use description off the website
+  - [x] DXF 900 and DXF 500 use same tag line from steph
+  - [x] bio 5200 delete everything after bioreactors
+  - [x] multi specimen fatigue cut off after studios (accelerating -> accelerated)
+  - [x] planar biaxial, start at characterizing and change to characterization 
+  - [x] stent graft testers - > Durapuls TM SGT
+  - [x] peripheral stent -> multi-axis peripheral stent
+  - [x] fix above on the tile too
+  - [x] elite, flex, and one all lower case and italics 
  - [x] Metals- thermal expansion of thin films image needed for dil 806
  - [x] Get Acquity Q5000 image (waiting from people)
  - [x] Check dhr accessories imageds with orange at top are wrong images
