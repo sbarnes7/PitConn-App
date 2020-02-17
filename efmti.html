@@ -126,7 +126,7 @@
 }
     </style>
     <body>
-      <div class="mx-auto" style="width: 95%;">
+      <div class="mx-auto" id="tas" style="width: 95%;">
         <div class="row" style="padding-top: 15px;">
           <div class="col-sm-2">
               <a href="instruments.html" style="color: black;">
@@ -492,6 +492,15 @@
 <br>
 
 
+</div>
+<div ng-app="myApp">
+  <div ng-controller="TextController">
+    <div ng-show="videoVisible" ng-click="hideVideo()">
+      <video id="video1" style="width:100%;max-width:100%; height: 100%;" controls autoplay muted="muted">
+        <source src="videos/vids/pittconn2020.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
 </div>
     </body>
     <script>

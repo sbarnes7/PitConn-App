@@ -5,6 +5,7 @@
 <link href="../../bootstrap-4.4.1-dist/js/bootstrap.min.js" media="all" type="text/css" rel="stylesheet">
 <link rel="stylesheet" href="../individual.css">
 <script src="../../jquery/jquery-3.4.1.slim.js"></script>
+<script src="../../jquery/angular.min.js"></script>
 <link rel="icon" href="../../img/logo.png">
 <link href="../../robot.css" rel="stylesheet">
 <script src="../responsiveindividual.js"></script>
@@ -12,7 +13,7 @@
     </head>
 
     <body>
-        <div class="mx-auto">
+        <div class="mx-auto" id="tas">
             <div id="mySidenav1" class="sidenav1 mx-auto" style="padding-left: 0px;">
                 <a href="javascript:void(0)" class="closebtn" onclick="close1()">&times;</a>
                 <div style="padding-left: 15px;">
@@ -136,6 +137,15 @@
 
         
         </div>
+        <div ng-app="myApp">
+            <div ng-controller="TextController">
+              <div ng-show="videoVisible" ng-click="hideVideo()">
+                <video id="video1" style="width:100%;max-width:100%; height: 100%;" controls autoplay muted="muted">
+                  <source src="../../videos/vids/pittconn2020.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
     </body>
     <script>
 function open1() {

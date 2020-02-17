@@ -97,7 +97,7 @@
             <div ng-controller="TextController">
               <div ng-show="videoVisible" ng-click="hideVideo()">
                 <video id="video1" style="width:100%;max-width:100%; height: 100%;" controls autoplay muted="muted">
-                  <source src="videos/vids/Thermal Analysis/DSC.mp4#t=1" type="video/mp4">
+                  <source src="videos/vids/pittconn2020.mp4" type="video/mp4">
                 </video>
               </div>
             </div>
@@ -151,11 +151,11 @@ myModule.controller("TextController", function($scope, $interval, $document, $ti
   //intervalTime - the value is in milliseconds, the functionName is continuously repeated for this time.
   //timeoutValue - the value is in milliseconds, when this value is exceeded the function given in functionName is stopped
 
-  monitorTimeout($scope.pause, 1000, 300000);
+  monitorTimeout($scope.pause, 1000, 5000);
 
   function monitorTimeout(functionName, intervalTime, timeoutValue) {
     //initialization parameters
-    timeoutValue = timeoutValue || 300000;
+    timeoutValue = timeoutValue || 5000;
     intervalTime = intervalTime || 1000;
     // Start a timeout
     var TimeOut_Thread = $timeout(function() {

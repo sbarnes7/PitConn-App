@@ -14,7 +14,7 @@
     </head>
 
     <body>
-        <div class="mx-auto" style="width: 95%; ">
+        <div class="mx-auto" id="tas" style="width: 95%; ">
             <div class="row">
                 <div class="col-sm-11">
                     <a href="../rti.html" style="color: black;">
@@ -125,6 +125,15 @@
                 <img src="../img/logo.png" class="fix"  style="width: 125px; padding-bottom: 25px; padding-right: 25px;">
             </a>           </div>
     </div></div>
+    <div ng-app="myApp">
+        <div ng-controller="TextController">
+          <div ng-show="videoVisible" ng-click="hideVideo()">
+            <video id="video1" style="width:100%;max-width:100%; height: 100%;" controls autoplay muted="muted">
+              <source src="../videos/vids/pittconn2020.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
     </body>
     <script>
         function openNav() {
