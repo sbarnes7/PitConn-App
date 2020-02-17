@@ -50,7 +50,7 @@
                        <button type="button" id="tabs1" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Description</button>&emsp;
                         <button type="button" id="tabs2" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Features & Benefits</button>&emsp;
                         <button type="button" id="tabs3" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Test Geometries</button>&emsp;
-                        <button type="button" id="tabs6" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Applications</button>&emsp;
+                        <button type="button" id="tabs4" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Applications</button>&emsp;
                         <button type="button" id="tabs5" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Video</button>&emsp;
                     </span>
                 </div>
@@ -88,20 +88,41 @@
                     </ul>
                 </div>
                 <div id="tabs-4" class="tabContent" style="display: none;">
-                    <h3><b>Paint Drying</b></h3>
-                    <img src="../img/rha1.png">
-                    <br>
-                    The drying kinetics of architectural coatings has an important impact on the feasibility of application and on the finished appearance. Drying time that is too fast may prevent desirable levelling, while drying that is too slow may lead to sagging. This drying process is strongly influenced by temperature and humidity. The accompanying data illustrates the drying process of a latex paint at constant temperature and three different humidity levels. A quantitative relationship may be obtained for the humidity-dependence of drying kinetics. These measurements were made using the Surface Diffusion geometry which is specifically well-suited for fast kinetic processes such as this. As paint layer thickness is quite low, the surface rheological approach to its measurements is appropriate. 
+                    <div class="row mx-auto">
+                        <div class="col-sm-5">
+                            <h4 style="font-weight: bold; color: rgb(0, 82, 155);">Paint Drying</h4>
+                            The drying kinetics of architectural coatings has an important impact on the feasibility of application and on the finished appearance. Drying time that is too fast may prevent desirable levelling, while drying that is too slow may lead to sagging. This drying process is strongly influenced by temperature and humidity. The accompanying data illustrates the drying process of a latex paint at constant temperature and three different humidity levels. A quantitative relationship may be obtained for the humidity-dependence of drying kinetics. These measurements were made using the Surface Diffusion geometry which is specifically well-suited for fast kinetic processes such as this. As paint layer thickness is quite low, the surface rheological approach to its measurements is appropriate. 
+                            </div>
+                        <div class="col-sm-7">
+                            <img src="../img/rha1.png" style="width: 100%;">
+                        </div>
+                    </div>
                     <br><br>
-                    <h3><b>Adhesive Curing</b></h3>
-                    <img src="../img/rha2.jpg">
-                    <br>
-                    The curing process of poly(vinyl acetate) (PVA) adhesives is driven by the loss of moisture from the glue to the atmosphere. The rate of this moisture loss is governed by the ambient humidity. While curing kinetics is important, a reliable adhesive bond also depends on a sufficient modulus. The accompanying data illustrates the curing time and bulk modulus of a PVA glue at three different levels of relative humidity. The data demonstrate that higher humidity levels slow the curing process, but do not impeded the final modulus value. These measurements were performed using the Annular Ring geometry, which allows for the determination of kinetic processes that are not limited by diffusion within the sample, and also provides quantitative bulk rheological properties which are needed to evaluate adhesive performance. 
+                    <div class="row mx-auto">
+                        <div class="col-sm-5">
+                            <h4 style="font-weight: bold; color: rgb(0, 82, 155);">Adhesive curing under controlled humidity conditions  </h4>
+                            The curing process of poly(vinyl acetate) (PVA) adhesives is driven by the loss of moisture from the glue to the atmosphere. The rate of this moisture loss is governed by the ambient humidity. While curing kinetics is important, a reliable adhesive bond also depends on a sufficient modulus. The accompanying data illustrates the curing time and bulk modulus of a PVA glue at three different levels of relative humidity. The data demonstrate that higher humidity levels slow the curing process, but do not impede the final modulus value. These measurements were performed using the Annular Ring geometry, which allows for the determination of kinetic processes that are not limited by diffusion within the sample, and also provides quantitative bulk rheological properties which are needed to evaluate adhesive performance. 
+                                                    </div>
+                        <div class="col-sm-7">
+                            <img src="../../img/apptables/DHR Accessories-Relative Humidity Accessory-Adhesive Curing.png" style="width: 100%;">
+                        </div>
+                    </div>
                     <br><br>
-                    <h3><b>Fuel Cell Membrane</b></h3>
-                    <img src="../img/rha3.png">
-                    <br>
-                    Fuel cell proton exchange membranes have performance characteristics that are strong functions of gas humidity. At low relative humidity (RH), membrane conductivity drops and the efficiency of the membranes decreases. For this reason, the operating environment is maintained at a high RH. These membranes are also strongly hygroscopic, absorbing moisture which leads to plasticizing and volumetric expansion. The axial film tension accessory was used to simultaneously measure the tensile modulus and monitor the change in sample length as a function of temperature and humidity for a commercial fluoropolymer fuel cell membrane. This information is important in designing for load and vibration tolerance, as well as dimensional stability with respect to hygroscopic expansion. 
+                    <div class="row mx-auto">
+                        <div class="col-sm-5">
+                            <h4 style="font-weight: bold; color: rgb(0, 82, 155);">Fuel cell membrane performance   </h4>
+                            Fuel cell proton exchange membranes have performance characteristics that are strong functions of gas humidity. At low relative humidity (RH), membrane conductivity drops and the efficiency of the membranes decreases. For this reason, the operating environment is maintained at a high RH. These membranes are also strongly hygroscopic, absorbing moisture which leads to plasticizing and volumetric expansion. The axial film tension accessory was used to simultaneously measure the tensile modulus and monitor the change in sample length as a function of temperature and humidity for a commercial fluoropolymer fuel cell membrane. This information is important in designing for load and vibration tolerance, as well as dimensional stability with respect to hygroscopic expansion. 
+                        </div>
+                        <div class="col-sm-7">
+                            <img src="../../img/apptables/DHR Accessories-Relative Humidity Accessory-Fuel Cell Membrane.png" style="width: 100%;">
+                        </div>
+                    </div>
+                    <br><br>
+                    <b>Other Applications</b>
+                    <br><br>
+                    <a type="button" id="tabs1" href="../../materials/adhesives/rha.html" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Adhesives & Sealants</a>&emsp;
+                    <a type="button" id="tabs1" href="../../materials/electronics/rha.html" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Electronics</a>&emsp;
+                    <a type="button" id="tabs1" href="../../materials/paints/rha.html" onClick="showStuff(this)" class="btn btn-outline-primary badge-pill">Liquids, Paints & Coatings</a>&emsp;
 
                 </div>
                 <div id="tabs-6" class="tabContent" style="display: none;">

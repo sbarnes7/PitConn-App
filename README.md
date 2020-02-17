@@ -1,13 +1,14 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
- - [ ] Finish the rheology applications, remove dhr ones from materials side 
+ - [ ] Interfacial Exchange cell technology??
  - [ ] Incorporate an inactivity video (implement throughout the app, use placeholder for now with a name that will work)
  ## 
  - [ ] Get actual video for the inacitivity
  - [ ] Get rest of applications from product managers (mechanical testing)
  - [ ] Get new DHR video and put it on DHR page as well as vidoe library pages
  ## Resolved Issues(2/10/2020)
+  - [x] Finish the rheology applications, remove dhr ones from materials side 
  - [x] Change gas and energetic materials to oil gas and energetic materials
  - [X] Paints inks and coatings to lliquids paints andcoatings 
  - [x] Cosmetics last categories without any applications
