@@ -151,11 +151,11 @@ myModule.controller("TextController", function($scope, $interval, $document, $ti
   //intervalTime - the value is in milliseconds, the functionName is continuously repeated for this time.
   //timeoutValue - the value is in milliseconds, when this value is exceeded the function given in functionName is stopped
 
-  monitorTimeout($scope.pause, 1000, 5000);
+  monitorTimeout($scope.pause, 1000, 300000);
 
   function monitorTimeout(functionName, intervalTime, timeoutValue) {
     //initialization parameters
-    timeoutValue = timeoutValue || 5000;
+    timeoutValue = timeoutValue || 300000;
     intervalTime = intervalTime || 1000;
     // Start a timeout
     var TimeOut_Thread = $timeout(function() {
