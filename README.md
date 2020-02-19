@@ -4,14 +4,15 @@
  - [ ] Fix table for APC with spelling error
  - [ ] Q5000 SA applications, might not be accurate
  - [ ] Hybrid Rheometer is missing a video
- - [ ] Advanced peltier plate temperature systems might be incomplete
- - [ ] Q5000 SA Video does not have a poster image
+ - [ ] Advanced peltier plates temperature systems might be incomplete
+ - [ ] APC Video does not have a poster image
  - [ ] Interfacial Exchange cell technology tab might be missing images
  ## 
  - [ ] Get actual video for the inacitivity
  - [ ] Get rest of applications from product managers (mechanical testing)
  - [ ] Get new DHR video and put it on DHR page as well as vidoe library pages
  ## Resolved Issues(2/19/2020)
+ - [x] Playback video on materials page fixed
   - [x] Incorporate an inactivity video (implement throughout the app, use placeholder for now with a name that will work)
   - [x] Finish the rheology applications, remove dhr ones from materials side 
  - [x] Change gas and energetic materials to oil gas and energetic materials
