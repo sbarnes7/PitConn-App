@@ -1,20 +1,20 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
- - [ ] Fix table for APC with spelling error
  - [ ] Hybrid Rheometer is missing a video
- - [ ] Interfacial Exchange cell technology tab might be missing images
  ## 
  - [ ] Get actual video for the inacitivity
  - [ ] Get rest of applications from product managers (mechanical testing)
  - [ ] Get new DHR video and put it on DHR page as well as vidoe library pages
- ## Resolved Issues(2/19/2020)
-  - [x] APC Video does not have a poster image
-  - [x] Advanced peltier plates temperature systems might be incomplete
-  - [x] Q5000 SA applications, might not be accurate
+ ## Resolved Issues(2/24/2020)
+ - [x] Fix table for APC with spelling error
+ - [x] Interfacial Exchange cell technology tab might be missing images
+ - [x] APC Video does not have a poster image
+ - [x] Advanced peltier plates temperature systems might be incomplete
+ - [x] Q5000 SA applications, might not be accurate
  - [x] Playback video on materials page fixed
-  - [x] Incorporate an inactivity video (implement throughout the app, use placeholder for now with a name that will work)
-  - [x] Finish the rheology applications, remove dhr ones from materials side 
+ - [x] Incorporate an inactivity video (implement throughout the app, use placeholder for now with a name that will work)
+ - [x] Finish the rheology applications, remove dhr ones from materials side 
  - [x] Change gas and energetic materials to oil gas and energetic materials
  - [X] Paints inks and coatings to lliquids paints andcoatings 
  - [x] Cosmetics last categories without any applications
