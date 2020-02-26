@@ -1,6 +1,7 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
+ - [ ] Elastomers EF needs image
  - [ ] Hybrid Rheometer is missing a video
  ## 
  - [ ] Get actual video for the inacitivity
