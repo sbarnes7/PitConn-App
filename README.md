@@ -5,7 +5,7 @@
  ## 
  - [ ] Get actual video for the inacitivity
  - [ ] Get new DHR video and put it on DHR page as well as vidoe library pages
- ## Resolved Issues(2/24/2020)
+ ## Resolved Issues(2/27/2020)
  - [x] Get rest of applications from product managers (mechanical testing)
  - [x] Elastomers EF multi sample fatigue needs graph
  - [x] Fix table for APC with spelling error
