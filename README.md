@@ -1,11 +1,10 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
- - [ ] Hybrid Rheometer is missing a video
- ## 
  - [ ] Get actual video for the inacitivity
- - [ ] Get new DHR video and put it on DHR page as well as vidoe library pages
  ## Resolved Issues(2/27/2020)
+  - [x] Get new DHR video and put it on DHR page as well as vidoe library pages
+ - [x] Hybrid Rheometer is missing a video
  - [x] Get rest of applications from product managers (mechanical testing)
  - [x] Elastomers EF multi sample fatigue needs graph
  - [x] Fix table for APC with spelling error
