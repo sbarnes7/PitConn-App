@@ -1,13 +1,13 @@
 # PitConn App
  TA Instruments PitConn App
  ## Current Things to Address
- - [ ] Elastomers EF needs image
  - [ ] Hybrid Rheometer is missing a video
  ## 
  - [ ] Get actual video for the inacitivity
- - [ ] Get rest of applications from product managers (mechanical testing)
  - [ ] Get new DHR video and put it on DHR page as well as vidoe library pages
  ## Resolved Issues(2/24/2020)
+ - [x] Get rest of applications from product managers (mechanical testing)
+ - [x] Elastomers EF multi sample fatigue needs graph
  - [x] Fix table for APC with spelling error
  - [x] Interfacial Exchange cell technology tab might be missing images
  - [x] APC Video does not have a poster image
